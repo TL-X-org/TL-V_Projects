@@ -1,6 +1,6 @@
 # About this Repo
 
-This repo is a starting-point for folks interested in getting involved in TL-Verilog-related projects (for h/w people and s/w people).
+This repo is a starting-point for folks interested in getting involved in TL-Verilog-related projects (for h/w folks and s/w folks).
 
 # Learning Resources for TL-Verilog
 
@@ -39,7 +39,7 @@ Here are a few noteworthy TL-Verilog project repositories:
 
 A number of open-source projects have been proposed that you might want to participate in.
 
-### Community Platform
+## Community Platform
 
 Just as GitHub builds a community of open-source developers and [Scratch](https://scratch.mit.edu/) fosters interest in software development in a younger audience, this project aims to build momentum for open-source hardware. Similar efforts include [OpenCores](http://opencores.org/) and [LibreCores](https://www.librecores.org/). This project could be a collaboration or integration with those platforms or a project of its own. Specifically, this project aims to integrate seamlessly with the Makerchip IDE.
 
@@ -55,7 +55,7 @@ Features would include:
 **Required skills**
  - full-stack web development
 
-### TL-VHDL/TL-C/TL-Clash/etc.
+## TL-VHDL/TL-C/TL-Clash/etc.
 
 TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the only target language for TL-X. This project would see through the vision of layering transaction-level support on other languages. TL-VHDL would help to broaden the reach of the technology. TL-C would connect transaction-level design with high-level synthesis. And, TL-Clash would explore the integration of transaction-level modeling with a stronger type system among other language benefits.
 
@@ -63,12 +63,31 @@ TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the onl
   - Hardware modeling in TL-Verilog, VHDL, System-C, and/or [Clash](https://qbaylogic.com/).
   - Java
 
-## Visualization of SweRV
+## Visualization
 
-Makerchip will soon have support for "Visual Debug". I won't say too much about it prior to release, but several efforts are already underway that are attracting some interest.
-  
+Makerchip will soon support "Visual Debug" (VIZ), a feature that enables custom visualization of circuit simulation, coded in JavaScript. This feature has many potential uses and is getting a lot of attention, even before public release within Makerchip.
 
-SweRV
+### Visualization for basic digital logic instruction
+
+VIZ can be used to illustrate basic logic functions and concepts like logic gates, K-maps, pipelines, etc. This project would develop these visualizations.
+
+**Required skills**
+  - JavaScript
+  - Basic TL-Verilog
+
+### Visualization of SweRV
+
+The SweRV core is an RISC-V CPU core developed by Western digital. It is an interesting core for college course and is being highlighted in the [RVfpga course](https://www.imgtec.com/news/press-release/imagination-announces-the-first-risc-v-computer-architecture-course/) for one. Visualizing the operation of the core can greatly enhance the learning experience. This project aims to do so.
+
+This project is underway in collaboration with [Manoj Sharma at IIT Delhi](https://www.ece.bvcoend.ac.in/site/home/index/319). Collaborators are welcomed.
+
+**Required skills**
+  - JavaScript
+  - CPU microarchitecture
+  - SystemVerilog
+
+### ...
+
 BaseJump STL and BlackParrot
 TLV Flow Library
 …
