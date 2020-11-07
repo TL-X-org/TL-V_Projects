@@ -31,7 +31,7 @@ Here are a few noteworthy TL-Verilog project repositories:
   - RISC-V:
     - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of M4 macro preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
-  - [https://github.com/stevehoover/tlv_flow_lib](TL-Verilog FLow Library): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
+  - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
   - [https://github.com/stevehoover/makerchip_examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip.
 
 
@@ -72,25 +72,56 @@ Makerchip will soon support "Visual Debug" (VIZ), a feature that enables custom 
 VIZ can be used to illustrate basic logic functions and concepts like logic gates, K-maps, pipelines, etc. This project would develop these visualizations.
 
 **Required skills**
-  - JavaScript
+  - JavaScript and VIZ
   - Basic TL-Verilog
 
 ### Visualization of SweRV
 
-The SweRV core is an RISC-V CPU core developed by Western digital. It is an interesting core for college course and is being highlighted in the [RVfpga course](https://www.imgtec.com/news/press-release/imagination-announces-the-first-risc-v-computer-architecture-course/) for one. Visualizing the operation of the core can greatly enhance the learning experience. This project aims to do so.
+The SweRV core is an open-source SystemVerilog RISC-V CPU core developed by Western digital. It is an interesting core for college course and is being highlighted in the [RVfpga course](https://www.imgtec.com/news/press-release/imagination-announces-the-first-risc-v-computer-architecture-course/) for one. Visualizing the operation of the core can greatly enhance the learning experience. This project aims to do so.
 
 This project is underway in collaboration with [Manoj Sharma at IIT Delhi](https://www.ece.bvcoend.ac.in/site/home/index/319). Collaborators are welcomed.
 
 **Required skills**
-  - JavaScript
+  - JavaScript and VIZ
   - CPU microarchitecture
   - SystemVerilog
 
-### ...
+### Visualization for BaseJump STL
 
-BaseJump STL and BlackParrot
-TLV Flow Library
-…
-Curriculum material
-Online tutorial components for Makerchip.
+[BaseJump STL](https://gitlab.com/black-parrot/basejump_stl) is a library of SystemVerilog components used in the design of [Black Parrot](https://pdfs.semanticscholar.org/f4e8/fc065db9fadcb6b800718bd1f083ffac058a.pdf). This might be a good candidate for use of VIZ, both for Black Parrot and to augment BaseJump STL with generic visualization. This would explore the use of generic visualization of SystemVerilog components.
+
+**Required skills**
+  - JavaScript and VIZ
+  - Many-core CPU microarchitecture
+  - SystemVerilog
+
+### Visualization of the TLV Flow Library
+
+This project adds visualization to components in the [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib). It explores encapsulation of visualization and aspect-oriented visualization that decouples transaction visualization from component visualization.
+
+**Required skills**
+  - JavaScript and VIZ
+  - TL-Verilog (expert-level)
+  - M4
+
+## Virtual FPGA Lab
+
+1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project aims to provide lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
+
+This project will utilize VIZ to represent the FPGA board, matching the spec of one(s) commonly used in labs, with LEDs, 7-segment displays, and/or video monitors. The experience will be enhanced by additional support in Makerchip for a VCD streaming interface for 1st CLaaS (where each time-step is a 1st CLaaS chunk plus a timestamp). Shell logic will provide a shim between FPGA kernel logic as spec'ed for the virtualized FPGA and the 1st CLaaS interface.
+
+**Required skills** (for multiple participants)
+  - JavaScript and VIZ
+  - TL-Verilog
+  - 1st CLaaS
+
+## Tutorial/Gamification Content Creation
+
+There are many opportunities to provide fun tutorials and gamified learning content for TL-Verilog that could be incorporated into Makerchip.
+
+**Required skills**
+  - TL-Verilog
+  - Makerchip
+  - VIZ
+  - Web development (JavaScript, HTML, CSS, React(?))
 
