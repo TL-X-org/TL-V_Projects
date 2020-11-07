@@ -1,8 +1,17 @@
 # About this Repo
 
-This repo is a starting-point for folks interested in getting involved in TL-Verilog-related projects (for h/w folks and s/w folks).
+This repo (containing just this README) is a starting-point for folks interested in getting involved in TL-Verilog-related projects (for both hardware folks and software/web-dev folks). These projects are a great opportunity to:
+  - showcase your talents
+  - develop new skills
+  - build your resume
+  - get involved with technology that can shape the future of the silicon industry
+  - prepare to apply for Google Summer of Code
+  - collaborate in academic research
+  - publish a papers
 
 # Learning Resources for TL-Verilog
+
+I (Steve Hoover) enjoy working with students and collaborators. I've worked with many, and I've been asked by many (upwards of 100) to provide mentorship. Before you ask, show that you can be of value. If you are interested in working with TL-Verilog, take initiative to begin ramping up on your own.
 
 Numerous trainings, videos, papers, and posts can be found on the [Redwood EDA Publications](https://www.redwoodeda.com/publications) page.
 
@@ -10,15 +19,15 @@ The [Makerchip.com](https://www.makerchip.com) IDE contains tutorials for learni
 
 TL-Verilog is an evolving language with evolving tools and infrastructure. Several important features are actively being explored and documentation for these is limited:
   - M4 macro preprocessing is being used to explore parameterization and code generation in TL-Verilog before proper TL-Verilog features are defined. [M4 docs](https://www.gnu.org/savannah-checkouts/gnu/m4/manual/m4-1.4.18/index.html) are available, but the particular use of M4 with TL-Verilog is considered transitional, and is currently undocumented.
-  - Visualization features are under development at Redwood EDA and have been utilized in online workshops. Documentation is not yet available, but several projects are underway to benefit from these features. Ask me ([Steve Hoover](emailto:steve.hoover@redwoodeda.com)) about early access.
+  - Visualization features are under development at Redwood EDA and have been utilized in online workshops. Documentation is not yet available, but several projects are underway to benefit from these features. Ask me ([Steve Hoover](mailto:steve.hoover@redwoodeda.com)) about early access.
 
 # Community
 
-After you work through the available training material on your own and feel comfortable with TL-Verilog basics, feel free to ask me ([Steve Hoover](emailto:steve.hoover@redwoodeda.com)) for access to the TL-Verilog User's Slack group. You'll find other newcomers and experienced developers listening in who can help you learn more.
+**After** you work through the available training materials and feel comfortable with TL-Verilog basics, feel free to ask me ([Steve Hoover](mailto:steve.hoover@redwoodeda.com)) for access to the TL-Verilog User's Slack group. You'll find other newcomers and experienced developers listening in who can help you learn more.
 
 # Starter Projects
 
-After you work through the available training material, and before you contribute to a "real" project, try some small-scale development of your own. Here are a few ideas:
+Before you contribute to a "real" project, try some small-scale development of your own. Here are a few ideas:
 
   - Find an IP on [OpenCores](https://opencores.org/) and convert to TL-Verilog
   - Ramp up on [1st CLaaS](https://github.com/stevehoover/1st-CLaaS) and create a simple hardware kernel that can be executed from a web application. You'll find a few simple demo applications in this repository that you can reference as examples.
@@ -41,7 +50,7 @@ A number of open-source projects have been proposed that you might want to parti
 
 ## Community Platform
 
-Just as GitHub builds a community of open-source developers and [Scratch](https://scratch.mit.edu/) fosters interest in software development in a younger audience, this project aims to build momentum for open-source hardware. Similar efforts include [OpenCores](http://opencores.org/) and [LibreCores](https://www.librecores.org/). This project could be a collaboration or integration with those platforms or a project of its own. Specifically, this project aims to integrate seamlessly with the Makerchip IDE.
+Just as GitHub builds a community of open-source developers and [Scratch](https://scratch.mit.edu/) fosters interest in software development in a younger audience, this project aims to build momentum for open-source hardware. Similar efforts include [OpenCores](http://opencores.org/) and [LibreCores](https://www.librecores.org/). This project could be a collaboration or integration with those platforms or a project of its own. Specifically, this project aims to integrate seamlessly with the Makerchip IDE for a community of Makerchip users.
 
 Features would include:
   - Project/IP cataloging:
@@ -57,7 +66,7 @@ Features would include:
 
 ## TL-VHDL/TL-C/TL-Clash/etc.
 
-TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the only target language for TL-X. This project would see through the vision of layering transaction-level support on other languages. TL-VHDL would help to broaden the reach of the technology. TL-C would connect transaction-level design with high-level synthesis. And, TL-Clash would explore the integration of transaction-level modeling with a stronger type system among other language benefits.
+TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the only target language for TL-X. This project would see through the vision of layering transaction-level support on other languages. TL-VHDL would help to broaden the reach of the technology. TL-C would connect transaction-level design with System-C and therefore high-level synthesis. And, TL-Clash would explore the integration of transaction-level modeling with a stronger type system among other language benefits.
 
 **Required skills**
   - Hardware modeling in TL-Verilog, VHDL, System-C, and/or [Clash](https://qbaylogic.com/).
@@ -108,7 +117,7 @@ This project adds visualization to components in the [TL-Verilog FLow Library](h
 
 1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project aims to provide lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
 
-This project will utilize VIZ to represent the FPGA board, matching the spec of one(s) commonly used in labs, with LEDs, 7-segment displays, and/or video monitors. The experience will be enhanced by additional support in Makerchip for a VCD streaming interface for 1st CLaaS (where each time-step is a 1st CLaaS chunk plus a timestamp). Shell logic will provide a shim between FPGA kernel logic as spec'ed for the virtualized FPGA and the 1st CLaaS interface.
+This project will utilize VIZ to represent the FPGA board, matching the spec of one(s) commonly used in labs, with LEDs, 7-segment displays, and/or video monitors. The experience will be enhanced by additional support in Makerchip for a VCD (waveform) streaming interface for 1st CLaaS (where each time-step is a 1st CLaaS chunk plus a timestamp). Shell logic will provide a shim between FPGA kernel logic as spec'ed for the virtualized FPGA and the 1st CLaaS interface.
 
 **Required skills** (for multiple participants)
   - JavaScript and VIZ
