@@ -172,3 +172,11 @@ This general category of smaller projects improves the ecosystem for TL-Veriog d
   - Adding JavaScript editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks
   - Improved support for M4 editing in TL-Verilog mode for Code Mirror.
   - GitHub support for TL-Verilog
+  
+## EDA Microservices
+  
+Makerchip currently supports simulation of Verilog and TL-Verilog code. It is expanding to support logic synthesis and other physical flows as well as support for other HDLs. This project will provide various microservices that run open-source eda tools that can be incorporated into Makerchip.
+  
+  **Required skills**
+    - Open-source EDA
+    - Cloud development
