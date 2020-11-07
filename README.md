@@ -32,7 +32,7 @@ Here are a few noteworthy TL-Verilog project repositories:
     - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of M4 macro preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
-  - [https://github.com/stevehoover/makerchip_examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip.
+  - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip.
 
 
 # TL-Verilog-Related Project Ideas
@@ -123,5 +123,43 @@ There are many opportunities to provide fun tutorials and gamified learning cont
   - TL-Verilog
   - Makerchip
   - VIZ
-  - Web development (JavaScript, HTML, CSS, React(?))
+  - Web development (JavaScript, HTML, CSS, React(?), npm)
 
+## WARP-V Configurator
+
+This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip.
+
+**Required skills**
+  - TL-Verilog
+  - M4
+  - Web development (JavaScript, HTML, CSS, React(?), NodeJS/npm)
+
+## WARP-V Many-core Accelerator Microservice
+
+This project brings together three others:
+  - WARP-V
+  - TL-Verilog Flow Library
+  - 1st CLaaS
+It will provide a configurable, easily-modifiable many-core-on-FPGA hardware accelerator deployed as a microservice to accelerate web and cloud applications.
+
+A ring-based WARP-V many-core is WIP in the WARP-V repo. This project will continue the momentum and explore this new compute paradigm.
+
+**Required skills** (for multiple participants)
+  - TL-Verilog
+  - Many-core CPU microarchitecture
+  - 1st CLaaS
+  - Xilinx FPGA development
+
+## FractalValley
+
+[FractalValley.net](http://www.fractalvalley.net) is a fun demo of 1st CLaaS and TL-Verilog. This project turns the demo into a robust site showcasing the value of hardware-acceleration in the cloud and the fun world of fractals.
+
+**Required skills**
+  - Web development (JavaScript, HTML, CSS, React, NodeJS, etc.)
+
+## TL-Verilog Editor Modes
+
+This general category of smaller projects improves the ecosystem for TL-Veriog development by creating editor support for various text editors and IDEs. Many editor modes already exist. A few possibilities include:
+  - Adding JavaScript editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks
+  - Improved support for M4 editing in TL-Verilog mode for Code Mirror.
+  - GitHub support for TL-Verilog
