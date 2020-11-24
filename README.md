@@ -136,7 +136,7 @@ There are many opportunities to provide fun tutorials and gamified learning cont
 
 ## WARP-V Configurator
 
-This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip.
+This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip. This project is sketched out in a [WARP-V repo wiki page](https://github.com/stevehoover/warp-v/wiki/WARP-V-Configuration-Front-End)
 
 **Required skills**
   - TL-Verilog
