@@ -172,7 +172,16 @@ This general category of smaller projects improves the ecosystem for TL-Veriog d
   - Adding JavaScript editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks
   - Improved support for M4 editing in TL-Verilog mode for Code Mirror.
   - GitHub support for TL-Verilog
-  
+
+## TLV-Blockly
+
+[Blockly](https://developers.google.com/blockly) is a framework for creating drag-and-drop block-based programming environments that are especially great for kids. It looks like it would be fairly straight-forward to create a block-based TL-Verilog edito that could be incorporated into Makerchip (without support for M4).
+
+Support for block-based JS viz could also be a consideration.
+
+Open questions:
+  - Does blockly support blocks with significant text input (for \SV regions, etc.)
+
 ## EDA Microservices
   
 Makerchip currently supports simulation of Verilog and TL-Verilog code. It is expanding to support logic synthesis and other physical flows as well as support for other HDLs. This project will provide various microservices that run open-source eda tools that can be incorporated into Makerchip.
