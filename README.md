@@ -159,6 +159,10 @@ A ring-based WARP-V many-core is WIP in the WARP-V repo. This project will conti
   - 1st CLaaS
   - Xilinx FPGA development
 
+## Implementing other ISAs in WARP-V 
+
+WARP-V currently has support for RISC-V, (incomplete) MIPS, and a toy educational ISA. PowerPC is also open now and could be implemented, in addition to any other open ISAs.
+
 ## FractalValley
 
 [FractalValley.net](http://www.fractalvalley.net) is a fun demo of 1st CLaaS and TL-Verilog. This project turns the demo into a robust site showcasing the value of hardware-acceleration in the cloud and the fun world of fractals.
