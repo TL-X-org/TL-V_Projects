@@ -193,3 +193,8 @@ Makerchip currently supports simulation of Verilog and TL-Verilog code. It is ex
   **Required skills**
     - Open-source EDA
     - Cloud development
+    
+## TL-Verilog Timing Reports
+
+This project will help designers to relate timing information from synthesis tools back to TL-Verilog's higher-level context (hierarchy, pipelines, and transactions). Scripts are needed to map RTL signal names to their original TL-Verilog names. This will be applied to timing reports from open source synthesis tools so timing information can be reported with respect to TL-Verilog source code.
+
