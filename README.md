@@ -136,6 +136,8 @@ There are many opportunities to provide fun tutorials and gamified learning cont
 
 ## WARP-V Configurator
 
+This project is well under way, and will appear soon in the [WARP-V repo](https://github.com/stevehoover/warp-v).
+
 This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip. This project is sketched out in a [WARP-V repo wiki page](https://github.com/stevehoover/warp-v/wiki/WARP-V-Configuration-Front-End)
 
 **Required skills**
@@ -146,9 +148,9 @@ This project adds a web front-end to WARP-V for configuration. The configured WA
 ## WARP-V Many-core Accelerator Microservice
 
 This project brings together three others:
-  - WARP-V
-  - TL-Verilog Flow Library
-  - 1st CLaaS
+  - [WARP-V](https://github.com/stevehoover/warp-v)
+  - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib)
+  - [1st ClaaS](https://github.com/stevehoover/1st-CLaaS)
 It will provide a configurable, easily-modifiable many-core-on-FPGA hardware accelerator deployed as a microservice to accelerate web and cloud applications.
 
 A ring-based WARP-V many-core is WIP in the WARP-V repo. This project will continue the momentum and explore this new compute paradigm.
