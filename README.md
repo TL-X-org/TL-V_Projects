@@ -50,6 +50,8 @@ A number of open-source projects have been proposed that you might want to parti
 
 ## Community Platform
 
+**Status**: Underway (no github link yet)
+
 Just as GitHub builds a community of open-source developers and [Scratch](https://scratch.mit.edu/) fosters interest in software development in a younger audience, this project aims to build momentum for open-source hardware. Similar efforts include [OpenCores](http://opencores.org/) and [LibreCores](https://www.librecores.org/). This project could be a collaboration or integration with those platforms or a project of its own. Specifically, this project aims to integrate seamlessly with the Makerchip IDE for a community of Makerchip users.
 
 Features would include:
@@ -115,6 +117,8 @@ This project adds visualization to components in the [TL-Verilog FLow Library](h
 
 ## Virtual FPGA Lab
 
+**Status**: Google Summer of Code 2021 project
+
 1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project aims to provide lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
 
 This project will utilize VIZ to represent the FPGA board, matching the spec of one(s) commonly used in labs, with LEDs, 7-segment displays, and/or video monitors. The experience will be enhanced by additional support in Makerchip for a VCD (waveform) streaming interface for 1st CLaaS (where each time-step is a 1st CLaaS chunk plus a timestamp). Shell logic will provide a shim between FPGA kernel logic as spec'ed for the virtualized FPGA and the 1st CLaaS interface.
@@ -147,6 +151,8 @@ This project adds a web front-end to WARP-V for configuration. The configured WA
 
 ## WARP-V Many-core Accelerator Microservice
 
+**Status**: Google Summer of Code 2021 project
+
 This project brings together three others:
   - [WARP-V](https://github.com/stevehoover/warp-v)
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib)
@@ -165,6 +171,10 @@ A ring-based WARP-V many-core is WIP in the WARP-V repo. This project will conti
 
 WARP-V currently has support for RISC-V, (incomplete) MIPS, and a toy educational ISA. PowerPC is also open now and could be implemented, in addition to any other open ISAs.
 
+## Neural Net
+
+Vineet Jain created a simple <a href="https://github.com/vineetjain07/DNN_TL-V">configurable neural network model in TL-Verilog</a>. This could follow a similar path to WARP-V w/ a configurator and cloud FPGA implementation.
+
 ## FractalValley
 
 [FractalValley.net](http://www.fractalvalley.net) is a fun demo of 1st CLaaS and TL-Verilog. This project turns the demo into a robust site showcasing the value of hardware-acceleration in the cloud and the fun world of fractals.
@@ -180,6 +190,8 @@ This general category of smaller projects improves the ecosystem for TL-Veriog d
   - GitHub support for TL-Verilog
 
 ## TLV-Blockly
+
+**Status**: Google Summer of Code 2021 project
 
 [Blockly](https://developers.google.com/blockly) is a framework for creating drag-and-drop block-based programming environments that are especially great for kids. It looks like it would be fairly straight-forward to create a block-based TL-Verilog edito that could be incorporated into Makerchip (without support for M4).
 
