@@ -76,7 +76,7 @@ TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the onl
 
 ## Visualization
 
-Makerchip will soon support "Visual Debug" (VIZ), a feature that enables custom visualization of circuit simulation, coded in JavaScript. This feature has many potential uses and is getting a lot of attention, even before public release within Makerchip.
+Makerchip supports "Visual Debug" (VIZ), a feature that enables custom visualization of circuit simulation, coded in JavaScript. Though a documented API with long-term support is not yet available, several folks are using it in its current, temporary form in projects like these.
 
 ### Visualization for basic digital logic instruction
 
