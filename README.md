@@ -18,7 +18,7 @@ Numerous trainings, videos, papers, and posts can be found on the [Redwood EDA P
 The [Makerchip.com](https://www.makerchip.com) IDE contains tutorials for learning TL-Verilog.
 
 TL-Verilog is an evolving language with evolving tools and infrastructure. Several important features are actively being explored and documentation for these is limited:
-  - M4 macro preprocessing is being used to explore parameterization and code generation in TL-Verilog before proper TL-Verilog features are defined. [M4 docs](https://www.gnu.org/savannah-checkouts/gnu/m4/manual/m4-1.4.18/index.html) are available, but the particular use of M4 with TL-Verilog is considered transitional, and is currently undocumented.
+  - M4 macro preprocessing is being used to explore parameterization and code generation in TL-Verilog before proper TL-Verilog features are defined. [M4 docs](https://www.gnu.org/software/m4/manual/m4.html) are available, but the particular use of M4 with TL-Verilog is considered transitional, and is currently undocumented.
   - Visualization features are under development at Redwood EDA and have been utilized in online workshops. Documentation is not yet available, but several projects are underway to benefit from these features. Ask me ([Steve Hoover](mailto:steve.hoover@redwoodeda.com)) about early access.
 
 # Community
