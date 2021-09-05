@@ -76,6 +76,15 @@ Features would include:
 **Required skills**
  - full-stack web development
 
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#community-platform` channel.
+
+
+## 1st CLaaS for Local FPGAs
+
+[1st ClaaS](https://github.com/stevehoover/1st-CLaaS) supports web application communication with FPGA logic in the cloud. It would be nice to support local FPGA use cases as well. This is useful for local applications as well as to support development that will ultimately be deployed to the cloud.
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#1st-claas` channel.
+
 
 ## TL-VHDL/TL-C/TL-Clash/etc.
 
@@ -89,6 +98,8 @@ TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the onl
 ## Visualization
 
 Makerchip supports "Visual Debug" (VIZ), a feature that enables custom visualization of circuit simulation, coded in JavaScript. Though a documented API with long-term support is not yet available, several folks are using it in its current, temporary form in projects like these.
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#viz` channel.
 
 
 ### Visualization for basic digital logic instruction
@@ -108,6 +119,8 @@ The SweRV core is an open-source SystemVerilog RISC-V CPU core developed by West
   - JavaScript and VIZ
   - CPU microarchitecture
   - SystemVerilog
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#swerv-viz` channel.
 
 
 ### Visualization for BaseJump STL
@@ -148,6 +161,8 @@ Possible enhancements:
   - TL-Verilog
   - 1st CLaaS
 
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#virtual-fpga-lab` channel.
+
 
 ## TL-Verilog Support in Edalize
 
@@ -176,6 +191,8 @@ This project adds a web front-end to WARP-V for configuration. The configured WA
   - M4
   - Web development (JavaScript, HTML, CSS, React(?), NodeJS/npm)
 
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#warp-v-configurator` channel.
+
 
 ## WARP-V Many-core Accelerator Microservice
 
@@ -194,6 +211,8 @@ Development from Google Summer of Code 2021 is merged into the [WARP-V repo](htt
   - Many-core CPU microarchitecture
   - 1st CLaaS
   - Xilinx FPGA development
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#warp-v-manycore` channel.
 
 
 ## Implementing other ISAs in WARP-V 
@@ -242,6 +261,8 @@ Support for block-based JS viz could also be a consideration.
 
 Open questions:
   - Does blockly support blocks with significant text input (for \SV regions, etc.)
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#blockly` channel.
 
 
 ## EDA Microservices
