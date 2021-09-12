@@ -95,6 +95,15 @@ TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the onl
   - Java
 
 
+## TL-UVM
+
+In theory, TL-X should be applicable to UVM as well. Since UVM does not have open-source support, no one has yet tried. But it would be great to uncover issues and put together examples. It looks like Modelsim supports UVM and is freely available for Intel FPGAs. There might be other options.
+
+**Required skills**
+  - UVM
+  - TL-Verilog
+
+
 ## Visualization
 
 Makerchip supports "Visual Debug" (VIZ), a feature that enables custom visualization of circuit simulation, coded in JavaScript. Though a documented API with long-term support is not yet available, several folks are using it in its current, temporary form in projects like these.
