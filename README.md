@@ -154,7 +154,7 @@ This project adds visualization to components in the [TL-Verilog FLow Library](h
 
 ## Virtual FPGA Lab
 
-**Status**: Developed as a Google Summer of Code 2021 project [here](https://github.com/BalaDhinesh/Virtual-FPGA-Lab), [blog](https://medium.com/@m.baladhinesh/fpgas-in-your-browser-bb92be1c1fa3)
+**Status**: Developed as a Google Summer of Code 2021 project [here](https://github.com/BalaDhinesh/Virtual-FPGA-Lab), written up in this [blog](https://medium.com/@m.baladhinesh/fpgas-in-your-browser-bb92be1c1fa3), and used in this [free course](https://github.com/stevehoover/GettingStartedWithFPGAs).
 
 1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project provides lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
 
