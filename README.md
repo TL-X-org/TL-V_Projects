@@ -85,6 +85,26 @@ Features would include:
 
 **Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#1st-claas` channel.
 
+**Required skills**:
+  - FPGAs
+  - 1st CLaaS
+
+
+## World CLaaS: Open FPGA Cloud
+
+The vision is to enable individuals with FPGAs (World CLaaS Citizens) to share their hardware with the world. The system would include three (open-source) parts:
+
+  - Citizens (of the World): An FPGA resource contributed to the World.
+  - World: A registry of World Citizens available for Jobs/Missions. Interest (permission) is based on tokens (that can be provided to certain Causes, users, etc.).
+  - Mission/Job API: Use by an application of a Citizen of the World (categorized by "Causes").
+
+Billing support would come after the open system for voluntary contributions and could be based on Stripe and/or digital currencies.
+
+This would build on "1st CLaaS for Local FPGAs" above.
+
+**Required skills**
+  - Cloud development
+
 
 ## TL-VHDL/TL-C/TL-Clash/etc.
 
