@@ -174,6 +174,8 @@ This project adds visualization to components in the [TL-Verilog FLow Library](h
 
 ## Virtual FPGA Lab
 
+![virtual lab](https://user-images.githubusercontent.com/64545984/130665673-63e52c11-f5e4-4290-8d05-a5a0741fbbbd.png)
+
 **Status**: Developed as a Google Summer of Code 2021 project [here](https://github.com/BalaDhinesh/Virtual-FPGA-Lab), written up in this [blog](https://medium.com/@m.baladhinesh/fpgas-in-your-browser-bb92be1c1fa3), and used in this [free course](https://github.com/stevehoover/GettingStartedWithFPGAs).
 
 1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project provides lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
@@ -261,10 +263,14 @@ Vineet Jain created a simple <a href="https://github.com/vineetjain07/DNN_TL-V">
 
 ## TensorCore Accelerator for Machine Learning
 
+![TensorCore](https://user-images.githubusercontent.com/11302288/134257557-0132a79d-da4c-4435-b952-7a9cda1537b3.png)
+
 Nitin Mishra began this project in Google Summer of Code 2021, mentored by Theodore Omtzigt. More in [the repo](https://github.com/natu4u/GSOC_TensorCore) and this [blog post](https://medium.com/@nmishra9/tensorcore-extension-for-deep-learning-41728fc22495).
 
 
 ## FractalValley
+
+![fractalvalley](https://user-images.githubusercontent.com/11302288/134257481-e43618a9-a3de-4623-9c6d-75a1b009c076.png)
 
 [FractalValley.net](http://www.fractalvalley.net) is a fun demo of 1st CLaaS and TL-Verilog. This project turns the demo into a robust site showcasing the value of hardware-acceleration in the cloud and the fun world of fractals.
 
@@ -274,22 +280,21 @@ Nitin Mishra began this project in Google Summer of Code 2021, mentored by Theod
 
 ## TL-Verilog Editor Modes
 
+![TLX_code](https://user-images.githubusercontent.com/11302288/134257374-6fa3667f-e160-494e-92ee-e47f0ab6a394.png)
+
 This general category of smaller projects improves the ecosystem for TL-Veriog development by creating editor support for various text editors and IDEs. Many editor modes already exist. A few possibilities include:
   - Adding JavaScript editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks
   - Improved support for M4 editing in TL-Verilog mode for Code Mirror.
   - GitHub support for TL-Verilog
 
 
-## TLV-Blockly
+## TL-Blockly
 
-**Status**: Google Summer of Code 2021 project
+![TL-Blockly](https://raw.githubusercontent.com/ninja3011/Block_Based_Circuit_Design/1802073c6e71c49b56cf544a3d3c5c6db43d926a/assets/Pythagorean.gif)
+
+**Status**: Google Summer of Code 2021 project, Ninad Jangle. [blog](https://ninja3011.github.io/Block_Based_Circuit_Design/) [repo](https://github.com/ninja3011/Block_Based_Circuit_Design), [application](https://gsoc-block-based-circuit-design-site.netlify.app/)
 
 [Blockly](https://developers.google.com/blockly) is a framework for creating drag-and-drop block-based programming environments that are especially great for kids. It looks like it would be fairly straight-forward to create a block-based TL-Verilog edito that could be incorporated into Makerchip (without support for M4).
-
-Support for block-based JS viz could also be a consideration.
-
-Open questions:
-  - Does blockly support blocks with significant text input (for \SV regions, etc.)
 
 **Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#blockly` channel.
 
