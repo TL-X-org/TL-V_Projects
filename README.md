@@ -283,9 +283,10 @@ Nitin Mishra began this project in Google Summer of Code 2021, mentored by Theod
 ![TLX_code](https://user-images.githubusercontent.com/11302288/134257374-6fa3667f-e160-494e-92ee-e47f0ab6a394.png)
 
 This general category of smaller projects improves the ecosystem for TL-Veriog development by creating editor support for various text editors and IDEs. Many editor modes already exist. A few possibilities include:
+  - Tree-sitter support. This seems to currently have the strongest momentum across editors. It is used by Atom. There is a conversion flow for CodeMirror 6. VSCode does not currently support it, but this is likely coming soon.
   - Adding JavaScript editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks
   - Improved support for M4 editing in TL-Verilog mode for Code Mirror.
-  - GitHub support for TL-Verilog
+  - GitHub support for TL-Verilog (DONE, but awaiting acceptance)
 
 
 ## TL-Blockly
