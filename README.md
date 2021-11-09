@@ -83,6 +83,8 @@ Features would include:
 
 [1st ClaaS](https://github.com/stevehoover/1st-CLaaS) supports web application communication with FPGA logic in the cloud. It would be nice to support local FPGA use cases as well. This is useful for local applications as well as to support development that will ultimately be deployed to the cloud.
 
+[FuseSoC](https://github.com/olofk/fusesoc) and [Apio](https://github.com/FPGAwars/apio) are worth considering.
+
 **Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#1st-claas` channel.
 
 **Required skills**:
@@ -185,7 +187,7 @@ This project uses VIZ to represent the FPGA board, matching the spec of ones com
 Possible enhancements:
   - Support for additional FPGA boards can be added.
   - Course content can be enhanced.
-  - An integration with [FuseSoC](https://github.com/olofk/fusesoc) probably makes sense.
+  - An integration with [FuseSoC](https://github.com/olofk/fusesoc) and/or [Apio](https://github.com/FPGAwars/apio) probably makes sense.
 
 **Required skills** (for multiple participants)
   - JavaScript and VIZ
