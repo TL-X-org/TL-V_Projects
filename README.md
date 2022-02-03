@@ -98,7 +98,7 @@ The vision is to enable individuals with FPGAs (World CLaaS Citizens) to share t
 
   - Citizens (of the World): An FPGA resource contributed to the World.
   - World: A registry of World Citizens available for Jobs/Missions. Interest (permission) is based on tokens (that can be provided to certain Causes, users, etc.).
-  - Mission/Job API: Use by an application of a Citizen of the World (categorized by "Causes").
+  - Mission/Job API: API for a Citizen to serve a Cause (aka the API to run an FPGA accelerator)..
 
 Billing support would come after the open system for voluntary contributions and could be based on Stripe and/or digital currencies. Vendor licenses might restrict this to open-source FPGA tools. Some notes on hosting FPGAs can be found here: https://medium.com/@shariethernet/quick-remote-fpga-lab-setup-without-vpn-port-forwarding-firewall-configurations-and-other-ccd45489ab35.
 
