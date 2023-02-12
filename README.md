@@ -45,7 +45,7 @@ Here are a few noteworthy TL-Verilog project repositories:
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
   - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip.
-  - [Virtual FPGA Lab](https://github.com/BalaDhinesh/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
+  - [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
   - [Block-Based TL-Verilog](https://github.com/ninja3011/Block_Based_Circuit_Design): A WIP block-based programming utility for developing in TL-Verilog.
   - [Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs (RPHAX)](https://github.com/shariethernet/RPHAX): RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs, including deployment of these FPGAs in the cloud.
 
@@ -199,6 +199,8 @@ This project adds visualization to components in the [TL-Verilog FLow Library](h
 
 ## Virtual FPGA Lab
 
+![virtual lab](https://user-images.githubusercontent.com/64545984/130665673-63e52c11-f5e4-4290-8d05-a5a0741fbbbd.png)
+
 1st CLaaS and Makerchip are great online tools to enable virtual FPGA lab classes. This project provides lab resources that mimic the physical lab experience to provide an easy path for migration of physical lab classes.
 
 This project uses VIZ to represent the FPGA board, matching the spec of ones commonly used in labs, with LEDs, 7-segment displays, and/or video monitors. The experience will be enhanced by additional support in Makerchip for a VCD (waveform) streaming interface for 1st CLaaS (where each time-step is a 1st CLaaS chunk plus a timestamp). Shell logic will provide a shim between FPGA kernel logic as spec'ed for the virtualized FPGA and the 1st CLaaS interface.
@@ -208,7 +210,7 @@ Possible enhancements:
   - Course content can be enhanced.
   - An integration with [FuseSoC](https://github.com/olofk/fusesoc) and/or [Apio](https://github.com/FPGAwars/apio) probably makes sense.
 
-**Repo**: ![virtual lab](https://user-images.githubusercontent.com/64545984/130665673-63e52c11-f5e4-4290-8d05-a5a0741fbbbd.png)
+**Repo**: https://github.com/os-fpga/Virtual-FPGA-Lab
 
 **Status**: Developed as a Google Summer of Code 2021 project [here](https://github.com/BalaDhinesh/Virtual-FPGA-Lab), written up in this [blog](https://medium.com/@m.baladhinesh/fpgas-in-your-browser-bb92be1c1fa3), and used in this [free course](https://github.com/stevehoover/GettingStartedWithFPGAs).
 
@@ -241,6 +243,8 @@ There are many opportunities to provide fun tutorials and gamified learning cont
 
 
 ## WARP-V Configurator
+
+![warp-v_org](https://user-images.githubusercontent.com/11302288/218320194-a705f143-ab50-4aac-8d29-1128e3eb101d.png)
 
 This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip. This project is sketched out in a [WARP-V repo wiki page](https://github.com/stevehoover/warp-v/wiki/WARP-V-Configuration-Front-End)
 
