@@ -226,7 +226,7 @@ Possible enhancements:
 
 [Edalize](https://github.com/olofk/edalize) automates EDA build flows, and wouldn't it be great to have TL-Verilog support using [SandPiper-SaaS](https://pypi.org/project/sandpiper-saas/).
 
-**Status**: Pull request [here](https://github.com/shariethernet/edalize/tree/sandpiper), and a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
+**Status**: Done, mergeed from this [pull request](https://github.com/shariethernet/edalize/tree/sandpiper), and here's a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
 
 
 ## Tutorial/Gamification Content Creation
