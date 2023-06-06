@@ -101,6 +101,10 @@ Billing support would come after the open system for voluntary contributions and
 
 This would build on "1st CLaaS for Local FPGAs" above, and relates to [RPHAX](https://github.com/shariethernet/RPHAX).
 
+**Related Tech**:
+  - the [Boinc](https://boinc.berkeley.edu/) framework for distributed democratized compute clouds and the backbone for [Seti at Home](https://setiathome.berkeley.edu/)
+  - the [HTCondor](https://htcondor.org/htcondor/overview/) software suite serving the [Open Science Pool](https://osg-htc.org/services/open_science_pool.html) operated by the [OSG Consortium](https://osg-htc.org/about/introduction/)
+
 **Status**: [RPHAX](https://github.com/shariethernet/RPHAX) is a step in this direction.
 
 **Required skills**
