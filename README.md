@@ -153,7 +153,14 @@ VIZ can be used to illustrate basic logic functions and concepts like logic gate
 ### Control and Status Registers
 
 Control and status registers (CSRs) are key elements of a digital design. Register description languages (RDLs), are used to provide a single source for their definitions that can be shared by RTL, system-level modeling, software, documentation, etc. SystemRDL seems to be the leading standard. There are open-source options for SystemRDL compilation.
-Here are two: [SystemRDL-Compiler](https://github.com/SystemRDL/systemrdl-compiler) and [Open Register Design Tool](https://github.com/Juniper/open-register-design-tool).
+Here are two:
+
+  - [SystemRDL-Compiler](https://github.com/SystemRDL/systemrdl-compiler)
+  - [Open Register Design Tool](https://github.com/Juniper/open-register-design-tool).
+
+There are lighter-weight options as well:
+
+  - [RGGEN](https://github.com/rggen/rggen)
 
 This project would support a TL-Verilog output target, including Visual Debug (VIZ). The hardware output could simply be
 TL-Verilog wrappers around the Verilog output, or it could be custom TL-Verilog. More interesting, though, is the
