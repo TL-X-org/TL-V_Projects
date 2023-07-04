@@ -160,7 +160,7 @@ Here are two:
 
 There are lighter-weight options as well:
 
-  - [RGGEN](https://github.com/rggen/rggen)
+  - [RgGen](https://github.com/rggen/rggen)
 
 This project would support a TL-Verilog output target, including Visual Debug (VIZ). The hardware output could simply be
 TL-Verilog wrappers around the Verilog output, or it could be custom TL-Verilog. More interesting, though, is the
