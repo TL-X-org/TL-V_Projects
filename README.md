@@ -13,7 +13,7 @@ This repo (containing just this README) is a starting-point for folks interested
 
 # Learning Resources for TL-Verilog
 
-I (Steve Hoover) enjoy working with students and collaborators. I've worked with many, and I've been asked by many (100+) to provide mentorship. Before you ask, show that you can work independently. If you are interested in working with TL-Verilog, take initiative to begin ramping up on your own.
+I enjoy working with students and collaborators. I've worked with many, and I've been asked by many (100+) to provide mentorship. Before you ask, show that you can work independently. If you are interested in working with TL-Verilog, take initiative to begin ramping up on your own.  --Steve Hoover
 
 Numerous trainings, videos, papers, and posts can be found on the [Redwood EDA Publications](https://www.redwoodeda.com/publications) page.
 
@@ -54,6 +54,29 @@ Here are a few noteworthy TL-Verilog project repositories:
 # TL-Verilog-Related Project Ideas
 
 A number of open-source projects have been proposed that you might want to participate in.
+
+## AI Circuit Design
+
+AI opens up a world of possibilities.
+
+### AI Writing TL-Verilog
+
+TL-Verilog creates an important separation between behavior and implementation. Implementation (especially timing, today) can be safely modified without introducing bugs. This enables implementation engineers to safely change RTL without disturbing designers and verification engineers. The same separation that helps humans work together is particularly valuable when working with AI. TL-Verilog elevates the abstraction level below which we can safely allow AI to optimize our circuits.
+
+Furthermore, the elevated thought process embodied in TL-Verilog provides a framework for AI reasoning as it does for human reasoning. While today's AI models do not understand TL-Verilog, future AI models will be more capable of designing correct and optimal logic using TL-Verilog than Verilog.
+
+The future of AI circuit design is destined to use TL-Verilog.
+
+
+### Code Conversion
+
+Code conversion (Verilog -> TL-Verilog) automation is one of the key missing enablers for the proliferation of TL-Verilog. AI is the perfect tool to fill this gap. LLMs are capable of addressing the nuances of code conversion in ways that traditional software never would. For example, rewriting comments to make sense in the context of a TL-Verilog representation of a design versus a Verilog representation.
+
+
+### AI Writing VIZ Code
+
+The challenge with releasing AI on a hardware model is preventing the introduction of bugs. There is more opportunity for AI in verification, which is the largest pool of effort in the design process anyway. One aspect of verification where AI can play a valuable role is in helping designers write [Visual Debug](https://redwoodeda.com/viz) code. This code improves productivity, and it can be wrong without significant repercussions. LLMs are already competent with JavaScript. They must be taught the VIZ API, best practices, and common patterns.
+
 
 ## Community Platform
 
