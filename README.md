@@ -32,14 +32,14 @@ The [Makerchip.com](https://makerchip.com) IDE contains tutorials, courses, and 
 Before you contribute to a "real" project, try some small-scale development of your own. Here are a few ideas:
 
   - Find a digital IP on [OpenCores](https://opencores.org/) or elsewhere and [convert it to TL-Verilog](https://docs.google.com/document/d/18AYcWFQ_rgxVqJzelHW0R04xILlcEkh5Uz9R0QMBxUQ/edit?usp=sharing)
-  - Ramp up on [1st CLaaS](https://github.com/stevehoover/1st-CLaaS) and create a simple hardware kernel that can be executed from a web application. You'll find a few simple demo applications in this repository that you can reference as examples.
+  - Ramp up on [1st CLaaS](https://github.com/os-fpga/1st-CLaaS) and create a simple hardware kernel that can be executed from a web application. You'll find a few simple demo applications in this repository that you can reference as examples.
   - Develop a TL-Verilog FPGA project using this [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab).
 
 
 # Project Repos
 
 Here are a few noteworthy TL-Verilog project repositories:
-  - [1st ClaaS](https://github.com/stevehoover/1st-CLaaS): A framework for developing hardware accelerated web and cloud applications using cloud FPGAs.
+  - [1st ClaaS](https://github.com/os-fpga/1st-CLaaS): A framework for developing hardware accelerated web and cloud applications using cloud FPGAs.
   - RISC-V:
     - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
@@ -101,7 +101,7 @@ Features would include:
 
 ## 1st CLaaS for Local FPGAs
 
-[1st ClaaS](https://github.com/stevehoover/1st-CLaaS) supports web application communication with FPGA logic in the cloud. It would be nice to support local FPGA use cases as well. This is useful for local applications as well as to support development that will ultimately be deployed to the cloud.
+[1st ClaaS](https://github.com/os-fpga/1st-CLaaS) supports web application communication with FPGA logic in the cloud. It would be nice to support local FPGA use cases as well. This is useful for local applications as well as to support development that will ultimately be deployed to the cloud.
 
 [F4PGA](https://f4pga.org/) and [Apio](https://github.com/FPGAwars/apio) are worth considering.
 
@@ -310,7 +310,7 @@ software to circuit simulation of the program in a customized CPU core.
 This project brings together three others:
   - [WARP-V](https://github.com/stevehoover/warp-v)
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib)
-  - [1st ClaaS](https://github.com/stevehoover/1st-CLaaS)
+  - [1st ClaaS](https://github.com/os-fpga/1st-CLaaS)
 It will provide a configurable, easily-modifiable many-core-on-FPGA hardware accelerator deployed as a microservice to accelerate web and cloud applications.
 
 Development from Google Summer of Code 2021 is merged into the [WARP-V repo](https://github.com/stevehoover/warp-v). Student: Vineet Jain. Primary Mentor: Akos Hadnagy. [Blog](https://medium.com/@vineetajm1999/developing-applications-for-cloud-fpgas-are-easier-than-you-think-6b39b7010412).
