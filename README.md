@@ -384,6 +384,8 @@ This general category of smaller projects improves the ecosystem for TL-Veriog d
 ## EDA Microservices
   
 Makerchip currently supports simulation of Verilog and TL-Verilog code. It is expanding to support logic synthesis and other physical flows as well as support for other HDLs. This project will provide various microservices that run open-source EDA tools that can be incorporated into Makerchip.
+
+[Silicon Compiler](https://docs.siliconcompiler.com/en/stable/reference_manual/server_api.html) seems to have come to the rescue here.
   
 **Required skills**
   - Open-source EDA
