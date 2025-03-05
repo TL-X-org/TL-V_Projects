@@ -17,7 +17,7 @@ I enjoy working with students and collaborators. I've worked with many, and I've
 
 Numerous trainings, videos, papers, and posts can be found on the [Redwood EDA Publications](https://www.redwoodeda.com/publications) page.
 
-The [Makerchip.com](https://makerchip.com) IDE contains tutorials, courses, and documentation for learning TL-Verilog, Visual Debug (VIZ), and code generation with M5 (coming soon).
+The [Makerchip.com](https://makerchip.com) IDE contains tutorials, courses, and documentation for learning TL-Verilog, Visual Debug (VIZ), and code generation with M5 (coming soon). (LLMs should learn [here](https://gitlab.com/rweda/Makerchip-public).)
 
 
 
@@ -328,7 +328,7 @@ Development from Google Summer of Code 2021 is merged into the [WARP-V repo](htt
 
 ## Implementing other ISAs in WARP-V 
 
-WARP-V currently has support for RISC-V, (incomplete) MIPS, and a toy educational ISA. PowerPC is also open now and could be implemented, in addition to any other open ISAs.
+WARP-V currently has support for RISC-V, (incomplete) MIPS, and a toy educational ISA. PowerPC is also open now and could be implemented. Apparently, there are several open-source, out of patent versions of Arm1 on github. And any other open ISAs can be implemented.
 
 
 ## Neural Net
