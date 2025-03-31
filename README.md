@@ -364,10 +364,15 @@ This was a Google Summer of Code 2021 project.
 
 ![TLX_code](https://user-images.githubusercontent.com/11302288/134257374-6fa3667f-e160-494e-92ee-e47f0ab6a394.png)
 
-This general category of smaller projects improves the ecosystem for TL-Veriog development by creating editor support for various text editors and IDEs. Many editor modes already exist. A few possibilities include:
-  - Tree-sitter support. This seems to currently have the strongest momentum across editors. It is used by Atom. There is a conversion flow for CodeMirror 6. VSCode does not currently support it, but this is likely coming soon.
+This general category of smaller projects improves the ecosystem for TL-Veriog development by creating editor support for various text editors and IDEs. Many editor modes already exist, but improvements are needed.
+Grammars:
+  - Tree-sitter: Seems to currently have the strongest momentum across editors.
+  - TextMate
+IDEs:
   - Adding JavaScript and/or M5 editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks and `\m5` regions.
-  - GitHub support for TL-Verilog (DONE, but awaiting acceptance)
+  - VSCode: Has a TL-Verilog mode and a new one from GSoC 2024 that is pending deployment. Uses TextMate. Tree-sitter support in VSCode is experimental.
+  - GitHub: GitHub uses Linguist which was based on TextMate and has been migrating to Tree-sitter. TL-Verilog support for Linguist was accepted (https://github.com/github-linguist/linguist/pull/5331/files) but doesn't work well.
+  - Makerchip/CodeMirror: CodeMirror 5 is used by Makerchip. There is a conversion flow from Tree-sitter for CodeMirror 6.
 
 
 ## TL-Blockly
