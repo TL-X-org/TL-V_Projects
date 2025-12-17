@@ -175,6 +175,12 @@ VIZ can be used to illustrate basic logic functions and concepts like logic gate
 
 ### Control and Status Registers
 
+**Status**:
+
+This project is complete! Ali Mohsen completed this project in GSoC 2025 as a [PeakRDL plugin](https://peakrdl.readthedocs.io/en/latest/community.html). Read his [blog post](https://sticky-touch-0e0.notion.site/Adding-Visualization-to-Hardware-Registers-My-GSoC-Contribution-239c4559ebc58095acc9c5c2ad62d065).
+
+**Description**:
+
 Control and status registers (CSRs) are key elements of a digital design. Register description languages (RDLs), are used to provide a single source for their definitions that can be shared by RTL, system-level modeling, software, documentation, etc. SystemRDL seems to be the leading standard. There are open-source options for SystemRDL compilation.
 Here are two:
 
@@ -368,12 +374,18 @@ This general category of smaller projects improves the ecosystem for TL-Veriog d
 Grammars:
   - Tree-sitter: Seems to currently have the strongest momentum across editors.
   - TextMate
+  - [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) is used by several editing environments.
 IDEs:
   - Adding JavaScript and/or M5 editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks and `\m5` regions.
   - VSCode: Has a TL-Verilog mode and a new one from GSoC 2024 that is pending deployment. Uses TextMate. Tree-sitter support in VSCode is experimental.
   - GitHub: GitHub uses Linguist which was based on TextMate and has been migrating to Tree-sitter. TL-Verilog support for Linguist was accepted (https://github.com/github-linguist/linguist/pull/5331/files) but doesn't work well.
   - Makerchip/CodeMirror: CodeMirror 5 is used by Makerchip. There is a conversion flow from Tree-sitter for CodeMirror 6.
 
+There's a (very old) document for standardizing [TL-Verilog editor modes](https://docs.google.com/document/d/1YGR5KzbCiP0rW9fEFM43x3IiQJ3TtvZR23gJNcMRhTA/edit?usp=sharing).
+
+**Status**:
+
+There is work in progress on this, so check with us for the latest.
 
 ## TL-Blockly
 
