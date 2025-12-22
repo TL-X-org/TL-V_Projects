@@ -39,12 +39,13 @@ Before you contribute to a "real" project, try some small-scale development of y
 # Project Repos
 
 Here are a few noteworthy TL-Verilog project repositories:
+  - [LLM_TLV](https://github.com/stevehoover/LLM_TLV) and [conversion-to-TLV](https://github.com/stevehoover/conversion-to-TLV): These explore conversion of Verilog to TL-Verilog using agentic flows.
   - [1st ClaaS](https://github.com/os-fpga/1st-CLaaS): A framework for developing hardware accelerated web and cloud applications using cloud FPGAs.
   - RISC-V:
     - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
-  - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip.
+  - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip, including LLM-generated TLV and VIZ examples.
   - [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
   - [Block-Based TL-Verilog](https://github.com/ninja3011/Block_Based_Circuit_Design): A WIP block-based programming utility for developing in TL-Verilog.
   - [Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs (RPHAX)](https://github.com/shariethernet/RPHAX): RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs, including deployment of these FPGAs in the cloud.
@@ -61,9 +62,11 @@ AI opens up a world of possibilities.
 
 ### AI Writing TL-Verilog
 
+LLMs are heading toward greater capabilities using TL-Verilog than other HDLs, like Verilog. This is a space that changes rapidly, and this README is unlikely to keep up.
+
 TL-Verilog creates an important separation between behavior and implementation. Implementation (especially timing, today) can be safely modified without introducing bugs. This enables implementation engineers to safely change RTL without disturbing designers and verification engineers. The same separation that helps humans work together is particularly valuable when working with AI. TL-Verilog elevates the abstraction level below which we can safely allow AI to optimize our circuits.
 
-Furthermore, the elevated thought process embodied in TL-Verilog provides a framework for AI reasoning as it does for human reasoning. While today's AI models do not understand TL-Verilog, future AI models will be more capable of designing correct and optimal logic using TL-Verilog than Verilog.
+Furthermore, the elevated thought process embodied in TL-Verilog provides a framework for AI reasoning, as it does for human reasoning.
 
 The future of AI circuit design is destined to use TL-Verilog.
 
@@ -75,7 +78,7 @@ Code conversion (Verilog -> TL-Verilog) automation is one of the key missing ena
 
 ### AI Writing VIZ Code
 
-The challenge with releasing AI on a hardware model is preventing the introduction of bugs. There is more opportunity for AI in verification, which is the largest pool of effort in the design process anyway. One aspect of verification where AI can play a valuable role is in helping designers write [Visual Debug](https://redwoodeda.com/viz) code. This code improves productivity, and it can be wrong without significant repercussions. LLMs are already competent with JavaScript. They must be taught the VIZ API, best practices, and common patterns.
+[Visual Debug](https://redwoodeda.com/viz) (VIZ) is possibly the single most important capability for the next decade of AI-assisted circuit design. With AI writing our code, the next challenge for humans is to understand and to be able to understand, work with, and debug that AI-generated code. VIZ gives AI the tools to communicate its work in a way humans can easily comprehend. VIZ code lives on with the code to increase productively throughout the life of the code.
 
 
 ## Community Platform
