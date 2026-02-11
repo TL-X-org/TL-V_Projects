@@ -46,6 +46,7 @@ Here are a few noteworthy TL-Verilog project repositories:
     - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
   - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
   - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip, including LLM-generated TLV and VIZ examples.
+  - [M5](https://github.com/rweda/M5) The M5 macro preprocessor, with plans for its next generation, Tilde.
   - [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
   - [Block-Based TL-Verilog](https://github.com/ninja3011/Block_Based_Circuit_Design): A WIP block-based programming utility for developing in TL-Verilog.
   - [Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs (RPHAX)](https://github.com/shariethernet/RPHAX): RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs, including deployment of these FPGAs in the cloud.
@@ -137,6 +138,11 @@ This would build on "1st CLaaS for Local FPGAs" above, and relates to [RPHAX](ht
   - Cloud development
 
 
+## TL-Verilog Features
+
+TL-Verilog is an evolving language. You could contribute to the next wave of features.
+
+
 ## TL-VHDL/TL-C/TL-Clash/etc.
 
 TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the only target language for TL-X. This project would see through the vision of layering transaction-level support on other languages. TL-VHDL would help to broaden the reach of the technology. TL-C would connect transaction-level design with System-C and therefore high-level synthesis. And, TL-Clash would explore the integration of transaction-level modeling with a stronger type system among other language benefits.
@@ -157,6 +163,10 @@ today and where further development might be necessary to achieve the combined b
   - UVM
   - TL-Verilog
 
+
+## Tilde Text Processing Language
+
+TL-Verilog utilizes M5 for macro preprocessing. We've envisioned a next generation for M5, called Tilde that would fill a unique role in computing as a simple, AI- and human- friendly, general purpose text processing language. See the [M5 repo](https://github.com/rweda/M5/tree/main/doc_tilde).
 
 ## Visualization
 
@@ -269,7 +279,7 @@ Possible enhancements:
 
 [Edalize](https://github.com/olofk/edalize) automates EDA build flows, and wouldn't it be great to have TL-Verilog support using [SandPiper-SaaS](https://pypi.org/project/sandpiper-saas/).
 
-**Status**: Done, mergeed from this [pull request](https://github.com/shariethernet/edalize/tree/sandpiper), and here's a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
+**Status**: Done, merged from this [pull request](https://github.com/shariethernet/edalize/tree/sandpiper), and here's a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
 
 
 ## Tutorial/Gamification Content Creation
