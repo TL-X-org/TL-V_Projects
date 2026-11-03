@@ -1,66 +1,71 @@
 # About this Repo
 
-This repo (containing just this README) is a starting-point for folks interested in getting involved in TL-Verilog-related projects (for both hardware folks and software/web-dev folks). These projects are a great opportunity to:
+This repo (containing just this README) is a starting-point for folks interested in getting involved in TL-Verilog-related projects (both hardware and software/web-dev). These projects are a great opportunity to:
   - showcase your talents
   - develop new skills
   - build your resume
-  - get involved with technology that can shape the future of the silicon industry
-  - prepare to apply for Google Summer of Code
+  - learn cutting-edge technology
+  - prepare for Google Summer of Code
   - collaborate in academic research
-  - publish a papers
+  - publish papers
 
 
 
 # Learning Resources for TL-Verilog
 
-I enjoy working with students and collaborators. I've worked with many, and I've been asked by many (100+) to provide mentorship. Before you ask, show that you can work independently. If you are interested in working with TL-Verilog, take initiative to begin ramping up on your own.  --Steve Hoover
+I've mentored many students on TL-Verilog-related projects over the years, and these students have helped to shape the TL-Verilog ecosystem and even the industry as a whole. Before you choose a project, and before you reach out,learn the technology.
 
 Numerous trainings, videos, papers, and posts can be found on the [Redwood EDA Publications](https://www.redwoodeda.com/publications) page.
 
 The [Makerchip.com](https://makerchip.com) IDE contains tutorials, courses, and documentation for learning TL-Verilog, Visual Debug (VIZ), and code generation with M5 (coming soon). (LLMs should learn [here](https://github.com/rweda/Makerchip-public).)
 
+Use the Makerchip extension with your favorite AI agent. That agent can be your learning coach to get started.
+
 
 
 # Community
 
-*After* you work through the available training materials and feel comfortable with TL-Verilog basics, feel free to [join the TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA). You'll find other newcomers and experienced developers listening in who can help you learn more.
+*After* you work through the available training resources and feel comfortable with TL-Verilog basics, feel free to [join the TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA). You'll find other newcomers and experienced developers listening in who can help you learn more.
 
 
 
 # Starter Projects
 
-Before you contribute to a "real" project, try some small-scale development of your own. Here are a few ideas:
+Before you contribute to a "real" project, try some small-scale development of your own. Of course, AI will do most of the coding on real projects, but your human judgement is what will make these projects impactful. Without shutting off your agents while you ramp up, you'll never develop the skills and understanding needed to guide them effectively.
 
-  - Find a digital IP on [OpenCores](https://opencores.org/) or elsewhere and [convert it to TL-Verilog](https://docs.google.com/document/d/18AYcWFQ_rgxVqJzelHW0R04xILlcEkh5Uz9R0QMBxUQ/edit?usp=sharing)
+Here are a few ideas:
+
+  - Find a digital IP on [OpenCores](https://opencores.org/) or elsewhere and [convert it (by hand) to TL-Verilog](https://docs.google.com/document/d/18AYcWFQ_rgxVqJzelHW0R04xILlcEkh5Uz9R0QMBxUQ/edit?usp=sharing)
   - Ramp up on [1st CLaaS](https://github.com/os-fpga/1st-CLaaS) and create a simple hardware kernel that can be executed from a web application. You'll find a few simple demo applications in this repository that you can reference as examples.
   - Develop a TL-Verilog FPGA project using this [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab).
+
 
 
 # Project Repos
 
 Here are a few noteworthy TL-Verilog project repositories:
-  - [LLM_TLV](https://github.com/stevehoover/LLM_TLV) and [conversion-to-TLV](https://github.com/stevehoover/conversion-to-TLV): These explore conversion of Verilog to TL-Verilog using agentic flows.
-  - [1st ClaaS](https://github.com/os-fpga/1st-CLaaS): A framework for developing hardware accelerated web and cloud applications using cloud FPGAs.
-  - RISC-V:
-    - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
-    - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
-  - [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
-  - [Makerchip VS Code Extension](https://github.com/rweda/makerchip-vscode-extension): The Makerchip IDE in VS Code, with language-model tools that let AI agents compile, simulate, and drive Makerchip views. (See [Makerchip as a Platform](#makerchip-as-a-platform).)
-  - [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip, including LLM-generated TLV and VIZ examples.
-  - [M5](https://github.com/rweda/M5) The M5 macro preprocessor, with plans for its next generation, Tilde.
-  - [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
-  - [Block-Based TL-Verilog](https://github.com/ninja3011/Block_Based_Circuit_Design): A WIP block-based programming utility for developing in TL-Verilog.
-  - [Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs (RPHAX)](https://github.com/shariethernet/RPHAX): RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs, including deployment of these FPGAs in the cloud.
+
+- [Makerchip VS Code Extension](https://github.com/rweda/makerchip-vscode-extension): The Makerchip IDE in VS Code, with language-model tools that let AI agents compile, simulate, and drive Makerchip views. (See [Makerchip as a Platform](#makerchip-as-a-platform).)
+- [LLM_TLV](https://github.com/stevehoover/LLM_TLV): Content for working with TL-Verilog and VIZ using LLMs, including an [automated Verilog-to-TL-Verilog conversion flow](https://github.com/stevehoover/LLM_TLV/tree/main/desktop_agent_verilog_conversion) backed by formal equivalence verification. (See [Code Conversion](#code-conversion).) It succeeds the earlier, API-based [conversion-to-TLV](https://github.com/stevehoover/conversion-to-TLV).
+- [1st ClaaS](https://github.com/os-fpga/1st-CLaaS): A framework for developing hardware accelerated web and cloud applications using cloud FPGAs.
+- RISC-V:
+  - [MYTH Workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop): A workshop offered by Redwood EDA and VLSI System Design. The repo indexes a few [CPU cores developed by students of the workshop](https://github.com/stevehoover/RISC-V_MYTH_Workshop/blob/master/student_projects.md) which serve as a good reference for RISC-V using TL-Verilog.
+  - [WARP-V](https://github.com/stevehoover/warp-v): A CPU core generator that makes heavy use of [M5](https://github.com/rweda/M5) preprocessing and the flexibility of TL-Verilog to support different ISAs, pipeline depths, etc.
+- [TL-Verilog FLow Library](https://github.com/stevehoover/tlv_flow_lib): A library of building-block components in TLV/M4 utilizing transaction flow (`$ANY`) to enable microarchitectures to be constructed quickly and easily.
+- [Makerchip Examples](https://github.com/stevehoover/makerchip_examples): In addition to those examples that can be found inside the Makerchip IDE, these are a few more examples of TL-Verilog logic for Makerchip, including LLM-generated TLV and VIZ examples.
+- [M5](https://github.com/rweda/M5) The M5 macro preprocessor, with plans for its next generation, Tilde.
+- [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab): A virtual FPGA lab environment for Makerchip and supporting scripts for local FPGA deployment.
+- [Rapid Prototyping of Hardware Accelerators on Xilinx FPGAs (RPHAX)](https://github.com/shariethernet/RPHAX): RPHAX provides a quick automation flow to develop and prototype hardware accelerators on Xilinx FPGAs, including deployment of these FPGAs in the cloud.
 
 
 
 # TL-Verilog-Related Project Ideas
 
-A number of open-source projects have been proposed that you might want to participate in. Ideas with a size in the heading (small/medium/large) are current proposals for internships and Google Summer of Code 2027. Others are earlier ideas, some complete, kept here along with their status.
+A number of open-source projects have been proposed that you might want to participate in. Ideas with a **Size** are current proposals for internships and Google Summer of Code 2027. Others are earlier ideas, kept here along with their status. Finished projects are listed under [Completed Projects](#completed-projects).
 
 ## Choosing a Project in the AI Era
 
-When defining a project, it is important to define what it is that YOU bring to the table as a human. It's not your ability to code. I have access to the same AI agents as you. There's no reason for me to go through you to prompt them. You must bring a vision, and willingness and ability to clean up AI-generated code. The suggested projects below are chosen so that **you** contribute something an agent cannot supply on its own:
+When defining a project, it is important to define what it is that YOU bring to the table as a human. It's not your ability to code. I have access to the same AI agents as you, and there's no reason for me to go through you to prompt them. At the current state of AI, we're all project leads. You must bring a vision and guidance, as well as the willingness and ability to clean up AI-generated code. The suggested projects below are chosen so that **you** contribute something an agent cannot supply on its own:
 
 - **Physical reality**: FPGA boards, logic analyzers, silicon (Tiny Tapeout), real tool installs on real machines (if you have access).
 - **Human judgment and evaluation**: user studies, teaching, deciding what is comprehensible, curating datasets.
@@ -73,9 +78,9 @@ Projects are sized in GSoC terms: small (~90 hrs), medium (~175 hrs), large (~35
 
 ## Makerchip as a Platform
 
-The [Makerchip VS Code extension](https://github.com/rweda/makerchip-vscode-extension) (`RedwoodEDA.makerchip`) embeds the Makerchip IDE in VS Code and gives AI agents (GitHub Copilot, Claude) numerous language-model tools to compile, simulate, lay out views, highlight signals, set the cycle, and capture VIZ images and videos. It is MIT-licensed open source; the Makerchip service it connects to is not. Two integration points matter most for students. Third-party views work wherever Makerchip runs: makerchip.com, sites that embed it through the Plugin API, and VS Code. The extension adds dynamic AI authorship and control of them.
+The [Makerchip VS Code extension](https://github.com/rweda/makerchip-vscode-extension) (`RedwoodEDA.makerchip`) embeds the Makerchip IDE in VS Code and gives AI agents (GitHub Copilot, Claude) numerous language-model tools to compile, simulate, lay out views, highlight signals, set the cycle, and capture VIZ images and videos. It is MIT-licensed open source; the Makerchip service it connects to is not. Two integration points matter most for students:
 
-1. **Third-party views.** Any web page or PDF can be opened as a view inside the IDE. Just like VS Code is a backplane for extensions, Makerchip provides a similar backplane for third-party views (and can itself run within VS Code). This makes Makerchip an extensible platform, and, with clear plugin APIs, AI can build the connected components of a bigger system with clear boundaries and provenance. See the [Third-Party Pane API](https://github.com/rweda/Makerchip-public/blob/main/docs/plugin_api/Third_Party_Pane_API.md) and [IDE Plugin API](https://github.com/rweda/Makerchip-public/blob/main/docs/plugin_api/Plugin_API.md) docs.
+1. **Third-party views.** Any web page or PDF can be opened as a view inside the IDE. Just like VS Code is a backplane for extensions, Makerchip provides a similar backplane for third-party views (and can itself run within VS Code). This makes Makerchip an extensible platform, and, with clear plugin APIs, AI can build the connected components of a bigger system with clear boundaries and provenance. Third-party views work wherever Makerchip runs: makerchip.com, sites that embed it through the Plugin API, and VS Code. The extension adds dynamic AI authorship and control of them. See the [Third-Party Pane API](https://github.com/rweda/Makerchip-public/blob/main/docs/plugin_api/Third_Party_Pane_API.md) and [IDE Plugin API](https://github.com/rweda/Makerchip-public/blob/main/docs/plugin_api/Plugin_API.md) docs.
 2. **LM tools / MCP servers for local tools.** The extension (or a standalone MCP server) can run open-source tools on the user's machine or in Web Assembly and hand results back to the agent and the IDE.
 
 A good pattern for many of the projects below: **an existing open-source web tool, wrapped as a connected view, plus LM tools that let an agent drive it, plus a workflow (a "skill") that teaches agents when to use it.**
@@ -86,18 +91,20 @@ AI opens up a world of possibilities.
 
 ### AI Writing TL-Verilog
 
-LLMs are heading toward greater capabilities using TL-Verilog than other HDLs, like Verilog. This is a space that changes rapidly, and this README is unlikely to keep up.
+LLMs are heading toward greater capabilities using TL-Verilog than other HDLs, like Verilog. This is a space that changes rapidly, and this README is unlikely to keep up. [TL-Verilog vs. Verilog Benchmark for LLMs](#tl-verilog-vs-verilog-benchmark-for-llms) would measure this, with and without Makerchip tools, and [Other HDLs in Makerchip](#other-hdls-in-makerchip) would extend the comparison to more languages.
 
 TL-Verilog creates an important separation between behavior and implementation. Implementation (especially timing, today) can be safely modified without introducing bugs. This enables implementation engineers to safely change RTL without disturbing designers and verification engineers. The same separation that helps humans work together is particularly valuable when working with AI. TL-Verilog elevates the abstraction level below which we can safely allow AI to optimize our circuits.
 
 Furthermore, the elevated thought process embodied in TL-Verilog provides a framework for AI reasoning, as it does for human reasoning.
 
-The future of AI circuit design is destined to use TL-Verilog.
-
 
 ### Code Conversion
 
 Code conversion (Verilog -> TL-Verilog) automation is one of the key missing enablers for the proliferation of TL-Verilog. AI is the perfect tool to fill this gap. LLMs are capable of addressing the nuances of code conversion in ways that traditional software never would. For example, rewriting comments to make sense in the context of a TL-Verilog representation of a design versus a Verilog representation.
+
+**Status**: Under active development in [LLM_TLV](https://github.com/stevehoover/LLM_TLV/tree/main/desktop_agent_verilog_conversion). The flow converts Verilog to TL-Verilog in small, LLM-driven refactoring steps, each proven correct by formal equivalence verification.
+
+**Opportunities**: Use the flow to convert open-source IP, and learn from the process. Where does the flow struggle, and why? Is the resulting TL-Verilog cleaner and smaller? What did conversion reveal about the original design? Your judgment of the results, and what you contribute back to the flow, are what matter. Results also feed the [TL-Verilog vs. Verilog Benchmark for LLMs](#tl-verilog-vs-verilog-benchmark-for-llms).
 
 
 ### AI Writing VIZ Code
@@ -105,13 +112,17 @@ Code conversion (Verilog -> TL-Verilog) automation is one of the key missing ena
 [Visual Debug](https://redwoodeda.com/viz) (VIZ) is possibly the single most important capability for the next decade of AI-assisted circuit design. With AI writing our code, the next challenge for humans is to understand and to be able to understand, work with, and debug that AI-generated code. VIZ gives AI the tools to communicate its work in a way humans can easily comprehend. VIZ code lives on with the code to increase productively throughout the life of the code.
 
 
-### TL-Verilog vs. Verilog Benchmark for LLMs (research, large)
+### TL-Verilog vs. Verilog Benchmark for LLMs
+
+**Size**: research, large
 
 Build a benchmark (in the spirit of VerilogEval/RTLLM) where each task is solvable in both TL-Verilog and Verilog (and possibly other HDLs). Measure agent success, code size, bug rate, and repair effort with and without Makerchip tools and VIZ feedback. Include tasks involving physical design and timing closure (Yosys + OpenSTA, or LibreLane/OpenROAD). Identify areas for improvement.
 
 **Why a human**: task design, avoiding contamination, honest analysis. A paper either way.
 
-### Does VIZ Help Humans Understand AI-Generated Hardware? (research, medium)
+### Does VIZ Help Humans Understand AI-Generated Hardware?
+
+**Size**: research, medium
 
 A user study: participants debug or review AI-generated designs with and without agent-authored VIZ. Measure time, accuracy, and confidence. The [AI Writing VIZ Code](#ai-writing-viz-code) section above claims VIZ is the key to human/AI collaboration; this tests it.
 
@@ -120,29 +131,39 @@ A user study: participants debug or review AI-generated designs with and without
 
 ## Third-Party Views
 
-### Surfer, WaveDrom, WaveCrux Waveform Views (small/medium)
+### Surfer, WaveDrom, WaveCrux Waveform Views
+
+**Size**: small/medium
 
 AI can now one-shot a decent waveform viewer. But folks have their familiar favorites. [Surfer](https://surfer-project.org) is an open-source, WASM-capable waveform viewer with a control protocol. Embed it as a connected view synchronized with Makerchip's cycle and highlights. Possibly even extend open-source waveform viewers with TL-Verilog-specific capabilities and other Makerchip IDE integrations.
 
 **Why a human**: upstream collaboration with the Surfer project.
 
-### Formal Verification View (medium)
+### Formal Verification View
+
+**Size**: medium
 
 Add a view that runs Yosys, SymbiYosys, or EQY. Load counter-example waveforms (analogous to a simulator producing a waveform), which will also display any VIZ in the model. Highlight the failing assertion. Agents already run FEV through the SandPiper/FEV MCP tools (as one option). This project provides a formal verification flow that is as natural and visual as Makerchip simulation.
 
 **Skills**: SymbiYosys, JavaScript.
 
-### ISA Simulator Co-Simulation View (medium)
+### ISA Simulator Co-Simulation View
+
+**Size**: medium
 
 Run a RISC-V ISS (Spike, Sail, or a JS simulator) in a view, in lockstep with WARP-V or a student core, flagging the first divergence and jumping all views to that cycle. Pairs with the existing [Compiler Explorer → WARP-V](#connect-compiler-explorer-with-warp-v) flow.
 
 **Skills**: RISC-V, JavaScript/WASM.
 
-### Data Analysis View (small)
+### Data Analysis View
+
+**Size**: small
 
 A notebook view (e.g. JupyterLite or marimo, both run in-browser) preloaded with the current simulation's signals as dataframes, for performance analysis (IPC, queue occupancy, stall histograms) beyond what VIZ shows.
 
-### Verilog Diagram View (medium)
+### Verilog Diagram View
+
+**Size**: medium
 
 Makerchip's Diagram view comes from SandPiper and so covers TL-Verilog only. Give pure Verilog/SystemVerilog designs a diagram view too, likely by running Yosys (e.g. in-browser via [YoWASP](https://yowasp.org)) and rendering its netlist with ELK/netlistsvg-style layout. It should cross-highlight with Waveform and, ideally, show live signal values like the TLV Diagram. Compare and contrast RTL diagrams vs. TL-Verilog diagrams.
 
@@ -151,17 +172,23 @@ Makerchip's Diagram view comes from SandPiper and so covers TL-Verilog only. Giv
 
 ## Local LM Tools / MCP Servers
 
-### Open Local Toolbox (medium; can be split)
+### Open Local Toolbox
+
+**Size**: medium; can be split
 
 A standalone MCP server (usable by Copilot, Claude Code, and others, not only the extension) exposing local open-source tools against SandPiper output: Verilator, Icarus, Yosys stats, cocotb, SymbiYosys, Surfer/GTKWave, KLayout screenshots, SiliconCompiler. Each tool returns concise, agent-friendly results (pass/fail, short logs, file paths) rather than raw dumps. This largely supersedes the older [EDA Microservices](#eda-microservices) idea.
 
 **Why a human**: installation and packaging across Linux/macOS/Windows, and deciding what output agents actually need (measure it: tokens consumed, task success).
 
-### cocotb Testbenches for TL-Verilog (medium)
+### cocotb Testbenches for TL-Verilog
+
+**Size**: medium
 
 Develop automation to integrate TL-Verilog (SandPiper™) with cocotb. By processing cocotb code with SandPiper and postprocessing output, TL-Verilog pipesignals can be referenced inline, providing timing-abstract cocotb linkage with hardware models. **Related**: [TL-UVM](#tl-uvm).
 
-### Other HDLs in Makerchip (medium; can be split per language)
+### Other HDLs in Makerchip
+
+**Size**: medium; can be split per language
 
 Bring other hardware languages into Makerchip: Chisel, Amaranth, SpinalHDL, VHDL (GHDL), Clash, Bluespec, and so on. Each could arrive as an agent skill that knows how to install the toolchain, compile to Verilog locally, and feed the result to Makerchip for simulation, waveforms, and VIZ. Where it pays off, add custom views, such as mapping Makerchip signals back to the source language. A lighter-weight first step than the "[TL-VHDL/TL-C/TL-Clash](#tl-vhdltl-ctl-clashetc)" idea. This enables further work to develop apples-to-apples HDL comparisons and studies.
 
@@ -170,7 +197,9 @@ Bring other hardware languages into Makerchip: Chisel, Amaranth, SpinalHDL, VHDL
 
 ## Physical Design Flows
 
-### Netlist and Layout Views (medium)
+### Netlist and Layout Views
+
+**Size**: medium
 
 Bring post-synthesis and post-layout views into the IDE, linked to the source:
 
@@ -180,19 +209,25 @@ Bring post-synthesis and post-layout views into the IDE, linked to the source:
 
 **Why a human**: deciding what is actually useful to look at, and engaging upstream maintainers to add the embedding/event hooks needed. **Skills**: JavaScript, Yosys JSON netlists.
 
-### Tiny Tapeout from Makerchip (medium; physical)
+### Tiny Tapeout from Makerchip
+
+**Size**: medium; physical
 
 A guided path from a TL-Verilog design in Makerchip to a [Tiny Tapeout](https://tinytapeout.com) submission: updating the Makerchip TT template, LM tools to run the TT flow locally or watch GitHub Actions results, a view showing the GDS and utilization, and a view for the 3D metal render.
 
 **Why a human**: actually taping out, testing the returned chip, and writing it up as a course module.
 
-### Local FPGA Deployment (medium; physical)
+### Local FPGA Deployment
+
+**Size**: medium; physical
 
 LM tools wrapping [Apio](https://github.com/FPGAwars/apio) / [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) / openFPGALoader to build and program boards (iCEBreaker, ULX3S, Tang Nano, etc.) from a Makerchip design, extending the [Virtual FPGA Lab](https://github.com/os-fpga/Virtual-FPGA-Lab) so the same `\TLV` board macros run in VIZ and on real hardware. Build a view for WebUSB to program the FPGA (works on some, but not all, platforms).
 
 **Why a human**: owning boards, verifying that what VIZ shows is what the board does. **Related**: [1st CLaaS for Local FPGAs](#1st-claas-for-local-fpgas), [Virtual FPGA Lab](#virtual-fpga-lab).
 
-### VIZ on Real Hardware (medium; physical, novel)
+### VIZ on Real Hardware
+
+**Size**: medium; physical, novel
 
 VIZ needs only a VCD. Capture signals from a running FPGA (an embedded logic analyzer such as LiteScope, or [sigrok](https://sigrok.org) with an external analyzer), export VCD, and replay the capture through the same VIZ code used in simulation. Same visualization, pre- and post-silicon.
 
@@ -201,13 +236,17 @@ VIZ needs only a VCD. Capture signals from a running FPGA (an embedded logic ana
 
 ## Showcases and Demos
 
-### Showcase Examples (small; can be split)
+### Showcase Examples
+
+**Size**: small; can be split
 
 Build polished, well-documented examples that show off what's possible: transaction flow with the [TL-Verilog Flow Library](https://github.com/stevehoover/tlv_flow_lib), features of the extension (CE → WARP-V, Live Docs, video capture, connected views), and striking visualizations. Contribute them to [makerchip_examples](https://github.com/stevehoover/makerchip_examples) and Makerchip's Examples view, with short videos.
 
 **Why a human**: taste. Choosing what will impress and teach a given audience, and refining it until it does. **Related**: [Visualization](#visualization), [Tutorial/Gamification Content Creation](#tutorialgamification-content-creation).
 
-### Beyond Hardware: Bot Arena (small/medium)
+### Beyond Hardware: Bot Arena
+
+**Size**: small/medium
 
 Show that the Makerchip IDE framework is a general platform for composing untrusted components. The demo has nothing to do with digital logic: a hidden-information game (Battleship, poker, Stratego) where every player is a bot view written by a different person or AI agent, possibly served from a different origin. The IDE's restricted API surface is what makes the game fair:
 
@@ -220,6 +259,37 @@ Show that the Makerchip IDE framework is a general platform for composing untrus
 As a by-product, the project is a red-team exercise on the trust model. Write the best cheating bot you can, and document what the contracts do and do not prevent. Things to probe: network side channels, same-origin views, timing, payload-size limits, and the pending user-trust prompt. A similar, more classroom-oriented variant is an autograder whose hidden tests are never visible to the student's (or agent's) code.
 
 **Why a human**: adversarial thinking. Finding the holes is the point, and an agent asked to write a fair bot won't go looking for them. **Skills**: JavaScript, browser security (iframes, `postMessage`, CSP).
+
+
+## Education and Curriculum
+
+[Digital Design with Makerchip & TL-Verilog](https://in-ir.github.io/makerchip-curriculum/) (see [Completed Projects](#digital-design-with-makerchip--tl-verilog)) shows what a browser-based course with live, embedded circuits can look like. These projects build on it.
+
+### Create a Makerchip-based Course
+
+**Size**: large
+
+Makerchip enables new ways of teaching digital design and computer architecture. Create a Makerchip-based course for a topic you know well. Note that basic digital logic design and RISC-V are pretty well covered, so choose something different, or enhance existing content.
+
+Ines Iraoui created [this one](https://in-ir.github.io/makerchip-curriculum/), covering the basics.
+
+**Why a human**: teaching. Only real students reveal what is confusing, and only an instructor relationship gets a course adopted. **Related**: [Tutorial/Gamification Content Creation](#tutorialgamification-content-creation), the autograder variant of [Bot Arena](#beyond-hardware-bot-arena).
+
+### Course Conversions to Makerchip and TL-Verilog
+
+**Size**: medium; can be split per course
+
+Partner with a professor/instructor of an existing digital design or computer architecture course and convert its labs and assignments to Makerchip and TL-Verilog, with VIZ. Keep the course's learning objectives; change the tooling and, where it helps, the pedagogy. Measure the effect: lab completion, time spent, and student feedback compared with the previous offering.
+
+**Why a human**: working with the instructor, respecting the course's goals, and running the comparison honestly.
+
+### Live Doc Companions for Textbooks and Slides
+
+**Size**: small/medium; can be split per book or course
+
+[Live Doc](https://github.com/rweda/Makerchip-public/blob/main/docs/viz_codo/extra/public/live_doc.md.html) animates figures in existing PDFs (circuit diagrams, timing diagrams, datapaths) with simulation values to better illustrate concepts. Build companion material for popular digital design and computer architecture textbooks and for openly available lecture slides. See the [Live Doc examples](https://github.com/stevehoover/makerchip_examples/tree/master/live_doc).
+
+**Why a human**: choosing the figures that benefit from animation, checking that each animation teaches what the author intended, and working with authors and publishers on permission and distribution.
 
 
 ## Community Platform
@@ -249,7 +319,7 @@ Features would include:
 
 [F4PGA](https://f4pga.org/) and [Apio](https://github.com/FPGAwars/apio) are worth considering.
 
-**Status**: See [Local FPGA Deployment](#local-fpga-deployment-medium-physical) for the current take on local FPGA flows.
+**Status**: See [Local FPGA Deployment](#local-fpga-deployment) for the current take on local FPGA flows.
 
 **Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#1st-claas` channel.
 
@@ -289,7 +359,7 @@ TL-Verilog is an evolving language. You could contribute to the next wave of fea
 
 TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the only target language for TL-X. This project would see through the vision of layering transaction-level support on other languages. TL-VHDL would help to broaden the reach of the technology. TL-C would connect transaction-level design with System-C and therefore high-level synthesis. And, TL-Clash would explore the integration of transaction-level modeling with a stronger type system among other language benefits.
 
-[Other HDLs in Makerchip](#other-hdls-in-makerchip-medium-can-be-split-per-language) is a lighter-weight first step.
+[Other HDLs in Makerchip](#other-hdls-in-makerchip) is a lighter-weight first step.
 
 **Required skills**
   - Hardware modeling in TL-Verilog, VHDL, System-C, and/or [Clash](https://qbaylogic.com/).
@@ -301,7 +371,7 @@ TL-Verilog is a Verilog implementation of TL-X, and currently Verilog is the onl
 Timing abstration and transaction flow are beneficial to verification modeling as well as to hardware modeling. [Verifying a RISC-V in 1 Page of Code!](https://www.semiwiki.com/forum/content/7850-verifying-risc-v-1-page-code-e.htmlTL-X) demonstrates extreme benefits for test harness modeling. In this work the verification modeling is SystemVerilog. We have yet to explore what can be done with UVM. With rapid progess recently on open-source
 UVM support in Verilator, experimenting with UVM is becoming more feasible. Also, It looks like Modelsim supports
 UVM and is freely available for Intel FPGAs. This project would expore what is possible with the two technologies
-today and where further development might be necessary to achieve the combined benefits. See also [cocotb Testbenches for TL-Verilog](#cocotb-testbenches-for-tl-verilog-medium), a Python-based alternative.
+today and where further development might be necessary to achieve the combined benefits. See also [cocotb Testbenches for TL-Verilog](#cocotb-testbenches-for-tl-verilog), a Python-based alternative.
 
 **Required skills**
   - UVM
@@ -330,39 +400,9 @@ VIZ can be used to illustrate basic logic functions and concepts like logic gate
   - Basic TL-Verilog
 
 
-### Control and Status Registers
+### Visualization of SweRV (VeeR)
 
-**Status**:
-
-This project is complete! Ali Mohsen completed this project in GSoC 2025 as a [PeakRDL plugin](https://peakrdl.readthedocs.io/en/latest/community.html). Read his [blog post](https://sticky-touch-0e0.notion.site/Adding-Visualization-to-Hardware-Registers-My-GSoC-Contribution-239c4559ebc58095acc9c5c2ad62d065).
-
-**Description**:
-
-Control and status registers (CSRs) are key elements of a digital design. Register description languages (RDLs), are used to provide a single source for their definitions that can be shared by RTL, system-level modeling, software, documentation, etc. SystemRDL seems to be the leading standard. There are open-source options for SystemRDL compilation.
-Here are two:
-
-  - [SystemRDL-Compiler](https://github.com/SystemRDL/systemrdl-compiler)
-  - [Open Register Design Tool](https://github.com/Juniper/open-register-design-tool).
-
-There are lighter-weight options as well:
-
-  - [RgGen](https://github.com/rggen/rggen)
-
-This project would support a TL-Verilog output target, including Visual Debug (VIZ). The hardware output could simply be
-TL-Verilog wrappers around the Verilog output, or it could be custom TL-Verilog. More interesting, though, is the
-VIZ output, and it might be best for this to support the least-common-denominator Verilog output. With this,
-any design using SystemRDL gets "live documentation" of it's CSRs containing CSR values from simulation in the context
-of the hardware that uses them.
-
-**Required skills**
-  - SystemRDL
-  - JavaScript and VIZ
-  - Basic TL-Verilog
-
-
-### Visualization of SweRV
-
-The SweRV core is an open-source SystemVerilog RISC-V CPU core developed by Western Digital. It is an interesting core for college course and is being highlighted in the [RVfpga course](https://www.imgtec.com/news/press-release/imagination-announces-the-first-risc-v-computer-architecture-course/) for one. Visualizing the operation of the core can greatly enhance the learning experience. This project aims to do so.
+The SweRV core (since renamed [VeeR](https://github.com/chipsalliance/Cores-VeeR-EH1) and maintained by CHIPS Alliance) is an open-source SystemVerilog RISC-V CPU core developed by Western Digital. It is an interesting core for college course and is being highlighted in the [RVfpga course](https://www.imgtec.com/news/press-release/imagination-announces-the-first-risc-v-computer-architecture-course/) for one. Visualizing the operation of the core can greatly enhance the learning experience. This project aims to do so.
 
 **Status**: SweRV has been built and simulated within Makerchip in [this repo](https://github.com/stevehoover/SweRV_VIZ).
 
@@ -405,8 +445,8 @@ This project uses VIZ to represent the FPGA board, matching the spec of ones com
 Possible enhancements:
   - Support for additional FPGA boards can be added.
   - Course content can be enhanced.
-  - An integration with [F4PGA](https://f4pga.org/) and/or [Apio](https://github.com/FPGAwars/apio) may makes sense. (See [Local FPGA Deployment](#local-fpga-deployment-medium-physical).)
-  - A real-hardware path, so the same `\TLV` board macros run in VIZ and on real boards, and captures from real boards replay through VIZ. (See [VIZ on Real Hardware](#viz-on-real-hardware-medium-physical-novel).)
+  - An integration with [F4PGA](https://f4pga.org/) and/or [Apio](https://github.com/FPGAwars/apio) may make sense. (See [Local FPGA Deployment](#local-fpga-deployment).)
+  - A real-hardware path, so the same `\TLV` board macros run in VIZ and on real boards, and captures from real boards replay through VIZ. (See [VIZ on Real Hardware](#viz-on-real-hardware).)
 
 **Repo**: https://github.com/os-fpga/Virtual-FPGA-Lab
 
@@ -420,16 +460,9 @@ Possible enhancements:
 **Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#virtual-fpga-lab` channel.
 
 
-## TL-Verilog Support in Edalize
-
-[Edalize](https://github.com/olofk/edalize) automates EDA build flows, and wouldn't it be great to have TL-Verilog support using [SandPiper-SaaS](https://pypi.org/project/sandpiper-saas/).
-
-**Status**: Done, merged from this [pull request](https://github.com/shariethernet/edalize/tree/sandpiper), and here's a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
-
-
 ## Tutorial/Gamification Content Creation
 
-There are many opportunities to provide fun tutorials and gamified learning content for TL-Verilog that could be incorporated into Makerchip.
+There are many opportunities to provide fun tutorials and gamified learning content for TL-Verilog that could be incorporated into Makerchip. See also [Education and Curriculum](#education-and-curriculum).
 
 **Status**: Grant application with TUe and U. Wisc. under consideration.
 
@@ -439,21 +472,6 @@ There are many opportunities to provide fun tutorials and gamified learning cont
   - VIZ
   - Web development (JavaScript, HTML, CSS, React(?), npm)
 
-
-## WARP-V Configurator
-
-![warp-v_org](https://user-images.githubusercontent.com/11302288/218320194-a705f143-ab50-4aac-8d29-1128e3eb101d.png)
-
-This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip. This project is sketched out in a [WARP-V repo wiki page](https://github.com/stevehoover/warp-v/wiki/WARP-V-Configuration-Front-End)
-
-**Status**: Launched! (http://warp-v.org)
-
-**Required skills**
-  - TL-Verilog
-  - M4
-  - Web development (JavaScript, HTML, CSS, React(?), NodeJS/npm)
-
-**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#warp-v-configurator` channel.
 
 ## Connect Compiler Explorer with WARP-V
 
@@ -469,7 +487,7 @@ software to circuit simulation of the program in a customized CPU core.
   - Node.js and general web dev.
   - [M5](https://github.com/rweda/M5) in order to bring the WARP-V assembler to full compliance (which could be left for someone else).
 
-**Status**: Done, in the [Makerchip VS Code extension](https://github.com/rweda/makerchip-vscode-extension), with Compiler Explorer and WARP-V as connected views and a `makerchip_ce_compile` tool. Remaining work: bring the WARP-V assembler to full compliance in M5. [ISA Simulator Co-Simulation View](#isa-simulator-co-simulation-view-medium) builds on this.
+**Status**: Done, in the [Makerchip VS Code extension](https://github.com/rweda/makerchip-vscode-extension), with Compiler Explorer and WARP-V as connected views and a `makerchip_ce_compile` tool. Remaining work: bring the WARP-V assembler to full compliance in M5. [ISA Simulator Co-Simulation View](#isa-simulator-co-simulation-view) builds on this.
 
 ## WARP-V Many-core Accelerator Microservice
 
@@ -537,23 +555,27 @@ Grammars:
   - [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) is used by several editing environments.
 IDEs:
   - Adding JavaScript and/or M5 editing support within the TL-Verilog mode for Code Mirror (used by Makerchip) for `\viz` blocks and `\m5` regions.
-  - VSCode: Has a TL-Verilog mode and a new one from GSoC 2024 that is pending deployment. Uses TextMate. Tree-sitter support in VSCode is experimental.
-  - GitHub: GitHub uses Linguist which was based on TextMate and has been migrating to Tree-sitter. TL-Verilog support for Linguist was accepted (https://github.com/github-linguist/linguist/pull/5331/files) but doesn't work well.
+  - VSCode: The [TL-Verilog extension](https://github.com/rweda/makerchip-vscode-extension/tree/main/packages/tlv-extension) (installed automatically with the Makerchip extension) uses the shared [`@rweda/tlv-grammar`](https://github.com/rweda/makerchip-vscode-extension/tree/main/packages/tlv-grammar) TextMate grammar plus semantic highlighting. Tree-sitter support in VSCode is experimental.
+  - GitHub: GitHub uses Linguist which was based on TextMate and has been migrating to Tree-sitter. TL-Verilog support for Linguist was accepted (https://github.com/github-linguist/linguist/pull/5331/files) but doesn't work well. (See [Tree-sitter Grammar and Upstream Adoption](#tree-sitter-grammar-and-upstream-adoption).)
   - Makerchip/CodeMirror: CodeMirror 5 is used by Makerchip. There is a conversion flow from Tree-sitter for CodeMirror 6.
 
 There's a (very old) document for standardizing [TL-Verilog editor modes](https://docs.google.com/document/d/1YGR5KzbCiP0rW9fEFM43x3IiQJ3TtvZR23gJNcMRhTA/edit?usp=sharing).
 
 **Status**: The TextMate grammar has been consolidated in [`@rweda/tlv-grammar`](https://github.com/rweda/makerchip-vscode-extension/tree/main/packages/tlv-grammar). Tree-sitter and upstream adoption remain (below). There is work in progress on this, so check with us for the latest.
 
-### Tree-sitter Grammar and Upstream Adoption (small/medium)
+### Tree-sitter Grammar and Upstream Adoption
+
+**Size**: small/medium
 
 Building on [`@rweda/tlv-grammar`](https://github.com/rweda/makerchip-vscode-extension/tree/main/packages/tlv-grammar), write a Tree-sitter grammar and get it adopted upstream: GitHub Linguist, Shiki, Neovim, Zed, CodeMirror 6.
 
 **Why a human**: an agent can draft a grammar; landing it in five upstream projects is relationship work.
 
-### SystemVerilog Language Services in TL-Verilog (medium)
+### SystemVerilog Language Services in TL-Verilog
 
-Hover, go-to-definition, and completion for SV embedded in `.tlv` files, by integrating an existing SV language server (e.g. Verible or slang-based) with the TLV layer. See [makerchip-vscode-extension](https://github.com/rweda/makerchip-vscode-extension) issue 009.
+**Size**: medium
+
+Hover, go-to-definition, and completion for SV embedded in `.tlv` files, by integrating an existing SV language server (e.g. Verible or slang-based) with the TLV layer. See [extension issue 009](https://github.com/rweda/makerchip-vscode-extension/blob/main/issues/009-sv-features-in-tlv.md).
 
 ## TL-Blockly
 
@@ -572,7 +594,7 @@ Makerchip currently supports simulation of Verilog and TL-Verilog code. It is ex
 
 [Silicon Compiler](https://docs.siliconcompiler.com/en/stable/reference_manual/server_api.html) seems to have come to the rescue here.
 
-**Status**: With AI agents driving tools locally, local tools via MCP may now matter more than microservices. See [Open Local Toolbox](#open-local-toolbox-medium-can-be-split) and [Netlist and Layout Views](#netlist-and-layout-views-medium).
+**Status**: With AI agents driving tools locally, local tools via MCP may now matter more than microservices. See [Open Local Toolbox](#open-local-toolbox) and [Netlist and Layout Views](#netlist-and-layout-views).
   
 **Required skills**
   - Open-source EDA
@@ -584,4 +606,70 @@ Makerchip currently supports simulation of Verilog and TL-Verilog code. It is ex
 
 This project will help designers to relate timing information from synthesis tools back to TL-Verilog's higher-level context (hierarchy, pipelines, and transactions). Scripts are needed to map RTL signal names to their original TL-Verilog names. This will be applied to timing reports from open source synthesis tools so timing information can be reported with respect to TL-Verilog source code.
 
-**Status**: Largely subsumed by the timing-closure tasks in [TL-Verilog vs. Verilog Benchmark for LLMs](#tl-verilog-vs-verilog-benchmark-for-llms-research-large) and by [Netlist and Layout Views](#netlist-and-layout-views-medium).
+**Status**: Largely subsumed by the timing-closure tasks in [TL-Verilog vs. Verilog Benchmark for LLMs](#tl-verilog-vs-verilog-benchmark-for-llms) and by [Netlist and Layout Views](#netlist-and-layout-views).
+
+
+
+# Completed Projects
+
+These projects have been completed. They may still offer follow-on opportunities.
+
+
+## Digital Design with Makerchip & TL-Verilog
+
+A browser-based digital design course that starts from logic gates and builds toward a processor, with Makerchip circuits embedded in every lesson, exercises with hints and solutions, and a project for each block.
+
+**Status**: Developed by Ines in Google Summer of Code 2026. [Live site](https://in-ir.github.io/makerchip-curriculum/), [repo](https://github.com/in-ir/makerchip-curriculum). The first blocks are complete; later blocks are in progress (see [Completing and Teaching the Makerchip Curriculum](#completing-and-teaching-the-makerchip-curriculum)).
+
+
+## Visualization of Control and Status Registers
+
+**Status**:
+
+This project is complete! Ali Mohsen completed this project in GSoC 2025 as a [PeakRDL plugin](https://peakrdl.readthedocs.io/en/latest/community.html). Read his [blog post](https://sticky-touch-0e0.notion.site/Adding-Visualization-to-Hardware-Registers-My-GSoC-Contribution-239c4559ebc58095acc9c5c2ad62d065).
+
+**Description**:
+
+Control and status registers (CSRs) are key elements of a digital design. Register description languages (RDLs), are used to provide a single source for their definitions that can be shared by RTL, system-level modeling, software, documentation, etc. SystemRDL seems to be the leading standard. There are open-source options for SystemRDL compilation.
+Here are two:
+
+  - [SystemRDL-Compiler](https://github.com/SystemRDL/systemrdl-compiler)
+  - [Open Register Design Tool](https://github.com/Juniper/open-register-design-tool).
+
+There are lighter-weight options as well:
+
+  - [RgGen](https://github.com/rggen/rggen)
+
+This project would support a TL-Verilog output target, including Visual Debug (VIZ). The hardware output could simply be
+TL-Verilog wrappers around the Verilog output, or it could be custom TL-Verilog. More interesting, though, is the
+VIZ output, and it might be best for this to support the least-common-denominator Verilog output. With this,
+any design using SystemRDL gets "live documentation" of it's CSRs containing CSR values from simulation in the context
+of the hardware that uses them.
+
+**Required skills**
+  - SystemRDL
+  - JavaScript and VIZ
+  - Basic TL-Verilog
+
+
+## TL-Verilog Support in Edalize
+
+[Edalize](https://github.com/olofk/edalize) automates EDA build flows, and wouldn't it be great to have TL-Verilog support using [SandPiper-SaaS](https://pypi.org/project/sandpiper-saas/).
+
+**Status**: Done, merged from this [pull request](https://github.com/shariethernet/edalize/tree/sandpiper), and here's a [usage example](https://github.com/shariethernet/edalize_sandpiper_example).
+
+
+## WARP-V Configurator
+
+![warp-v_org](https://user-images.githubusercontent.com/11302288/218320194-a705f143-ab50-4aac-8d29-1128e3eb101d.png)
+
+This project adds a web front-end to WARP-V for configuration. The configured WARP-V core (or many-core) can be opened in Makerchip. This project is sketched out in a [WARP-V repo wiki page](https://github.com/stevehoover/warp-v/wiki/WARP-V-Configuration-Front-End)
+
+**Status**: Launched! (http://warp-v.org)
+
+**Required skills**
+  - TL-Verilog
+  - M4
+  - Web development (JavaScript, HTML, CSS, React(?), NodeJS/npm)
+
+**Discussion**: [TL-Verilog User's Slack workspace](https://join.slack.com/t/tl-verilog-users/shared_invite/zt-4fatipnr-dmDgkbzrCe0ZRLOOVm89gA) `#warp-v-configurator` channel.
