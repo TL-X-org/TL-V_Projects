@@ -248,7 +248,7 @@ Build polished, well-documented examples that show off what's possible: transact
 
 **Size**: small/medium
 
-Show that the Makerchip IDE framework is a general platform for composing untrusted components. The demo has nothing to do with digital logic: a hidden-information game (Battleship, poker, Stratego) where every player is a bot view written by a different person or AI agent, possibly served from a different origin. The IDE's restricted API surface is what makes the game fair:
+Show that the Makerchip IDE framework is a general platform for composing untrusted components. The demo has nothing to do with digital logic: a hidden-information game (Battleship, poker, Stratego) where every player is a bot view written by a different person or AI agent, possibly served from a different origin. The IDE's restricted API surface is what makes the game fair (and what otherwise provides security):
 
 - A **referee view** holds the true game state. It sends each player only that player's observations (targeted events) and accepts `move` events, checking who sent each one.
 - **Player views** subscribe only to their own observations and produce only `move`. A bot cannot read an opponent's hand, because that event is never delivered to it. It cannot forge an opponent's move, because the IDE stamps `source` and no view can set it. And it cannot drive the IDE, because it has no `rpc`.
